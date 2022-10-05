@@ -1,0 +1,162 @@
+/* {box-sizing: border-box} */
+.html{
+    scroll-behavior: smooth;
+}
+*{margin: 0%;padding: 0;text-decoration: none;}
+/* global classes */
+.fry{display: flex;}
+.just{justify-content: center;}
+.just1{justify-content: space-between;}
+.sense{align-items: center;}
+.cont{margin: 0 14rem;}
+.cont1{margin: 0 2rem;}
+.bloc{display: block;}
+.bckg{background-color: rgb(91, 91, 163);}
+.tpmar{margin-top: -8px;}
+:root{
+    --class: rgb(8, 1, 17);
+    --heaven: white;
+    --dark:black;
+    --main:rgb(245, 79, 19);
+    --life:rgb(88, 168, 235);
+    --warn: rgb(250, 250, 17);
+}
+/* Full-width input fields */
+.mad{
+  background-image: url(../img/sign1.avif);
+  background-image: url(../img/sign2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  text-align: center;
+  color: white;
+  margin-top: -3rem;
+  padding-top: 4rem;
+}
+.mad h4{
+  width: 60%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 20%;
+  font-weight: 900;
+  font-style: oblique;
+}
+.mad h2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 800;
+}
+  input[type=text], input[type=password], input[type=number]{
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: black;
+  color: white;
+}
+input[type=text]:focus, input[type=password], input[type=number]:focus {
+  background-color: rgb(2, 2, 66);
+  outline: none;
+}
+/* Set a style for all buttons */
+button {
+  background-color: #01140d;
+  color: white;
+  padding: 8px 12px;
+  margin: 8px 0 8px 3px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  opacity:0.9;
+}
+.cancelbtn {
+  padding: 8px 12px;
+  background-color: #b1180d;
+}
+.cancelbtn, .signupbtn {
+  float: center;
+}
+.container {
+  padding: 10px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: var(--life);
+  padding-top: 15px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #f8f9fc;
+  margin: 5% auto 10% auto;
+  border: 2px solid #888;
+  width: 55%; 
+}
+.container hr {
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+label{
+    color: black;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.mad h4, .mad h2{
+  color: white;
+}
+.aris a{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 8.5px;
+}
+.aris a:hover{
+  opacity: 0.9;
+  font-weight: 600;
+  transition: 0.40s ease-in-out;
+}
+.aris{
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+  gap: 3%;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+

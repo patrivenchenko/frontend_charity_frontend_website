@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/donate.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/special.css">
+    <link rel="stylesheet" href="./donate.sass">
+    <title>Donate.africare</title>
+     <!-- scroll head -->
+     <script>
+        function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }}
+    </script>
+    <!-- scroll  head-->
+    <!-- tab structure -->
+    <script>
+      function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+    </script>
+    <!-- tab structure -->
+</head>
+
+<body>
+    <!-- nav start -->
+<nav class="navbar navbar-expand-sm  navbar-dark" style="background-color: var(--life); position: fixed; z-index:10; width: 100%;">
+    <div class="container-fluid">
+    <a href="index.html" style="text-decoration: none;">
+      <div class="origin fry sense">
+        <img style="width: 3rem; margin-right: 7px;" src="./img/logo/logo_three-removebg-preview.png" alt="">
+        <h2 style="color: whitesmoke;">AFRICARE</h2>
+    </div>
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar" style="margin-left:23%;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index2.html" >HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ABOUT US</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html" >Who We Are</a></li>
+              <li><a class="dropdown-item" href="about.html" >Mission Statement</a></li>
+              <li><a class="dropdown-item" href="about.html" >Featured Stories</a></li>
+              <li><a class="dropdown-item" href="about.html" >Upcoming Events</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="pioneers.html" >PIONEERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contributor.html" >CONTRIBUTORS</a>
+            </li>  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">E-Outreach</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="e-outreach.html" >Web Development</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html" >AI Programming class</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html" >Pastry Making Courses</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html" >Crypto Trading Lessons</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html" >Mobile App Development</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html" >Ecommerce Website</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html" target="_blank">Forex Trading Classes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html" >NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html" >REGISTER</a>
+            </li>  
+            <li class="nav-item2 tpmar">
+              <button class="btn" style="background-color: black; color: white;"><a class="nav-link active" href="donate.html"  >DONATE</a></button>
+            </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav end -->
+  <!-- scroll action -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+<script>mybutton = document.getElementById("myBtn");</script>
+<script>window.onscroll = function() {scrollFunction()};
+</script>
+  <!-- scroll action -->
+
+  <!-- contact flyer start -->
+  <div class="flyer">
+    <ul>
+      <li>
+        <button type="button" class="bag" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="fa-solid fa-square-minus"></i>
+        </button>
+      </li>
+      <li><a href=""><i class="fa-brands fa-facebook"></i></a></i></li>
+      <li><a href=""><i class="fa-brands fa-twitter"></i></a></i></li>
+      <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></i></li>
+    </ul>
+   </div>
+<!-- contact flyer end -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false" style="width:80rem ; overflow-x: visible; margin-right: 30px;">
+  <div class="modal-dialog" style="width:55rem ;">
+    <div class="modal-content" style="width:55rem ;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>AFRICARE</h4>
+        <h6>Here To Help</h6>
+        <div class="concise ">
+          <div class="talk">
+            <h1><i class="fa-solid fa-phone"></i></h1>
+            <h4>Talk To Our Services Personnel</h4>
+            <p><b>Phone No</b></p>
+            <p>+2349039905114</p>
+            <p><b>Emergency Hotline</b></p>
+            <p>+2349066451518</p>
+            <p>We are here to help and answer any question</p>
+            <p>you might have. We look forward to hearing from you</p>
+          </div>
+          <div class="chat">
+            <h1><i class="fa-solid fa-comment"></i></h1>
+            <h3>How Can We Help?</h3>
+            <p>Send us a message</p>
+            <form action="">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Last Name">
+              <input type="email" placeholder="Email Address">
+              <textarea name="message" cols="50" rows="5" placeholder="message"></textarea>
+            </form>
+            <div class="mdlink">
+             <h4>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-Instagram-square"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+             </h4>
+            </div>
+        </div>
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal end -->
+    <div class="all-don">
+        <div class="don-hero cont just sense">
+            <h1>DONATE</h1>
+            <h3>FOR THE UNDER PRIVILEDGED CHILDREN</h3>
+            <p>Every day We give hope and a new beginning to children in the worlds</p>
+            <p>hardest places as a sign of God's unconditional love and a means to give back to humanity</p>
+            <!-- <a href=""><button class="btn mx-3" style="background-color: var(--life); color: whitesmoke;">Donate
+                    Now</button></a> -->
+            <div class="don-hero-nxt bckg text-center">
+                <div class="hero-nxt sense just mx-4" style=line-height:9px;>
+                    <i class="fa-solid fa-handshake-simple mt-3 mb-2"></i>
+                    <h5>Be a Contributor</h5>
+                    <p style="font-size: 12px;">Empower Today</p>
+                    <p style="font-size: 12px;">The tomorrow of Africa</p>
+                    <a href=""><button class="btn"
+                            style="background-color: transparent; color: whitesmoke; margin-bottom: 10px; border: 1px solid whitesmoke; border-radius: 12px;;">Join
+                            Now</button></a>
+                </div>
+                <div class="hero-nxt sense just mx-4" style=line-height:10px;>
+                    <i class="fa-solid fa-hands-holding-child mt-3 mb-2"></i>
+                    <h5>Adopt a Child</h5>
+                    <p style="font-size: 12px;">Provide a Home for a Child</p>
+                    <p style="font-size: 12px;">That Africa may live on</p>
+                    <a href="apply.html" target="_blank"><button class="btn"
+                            style="background-color: transparent; color: whitesmoke; margin-bottom: 10px; border: 1px solid whitesmoke; border-radius: 12px;;">Apply
+                            Now</button></a>
+                </div>
+                <div class="hero-nxt sense just mx-4" style=line-height:10px;>
+                    <i class="fa-solid fa-hand-holding-dollar mt-3 mb-2"></i>
+                    <h5>Get Involved</h5>
+                    <p style="font-size: 12px;">Partake in a Project</p>
+                    <p style="font-size: 12px;">And inspire hope</p>
+                    <a href="register.html" target="_blank"><button class="btn"
+                            style="background-color: transparent; color: whitesmoke; margin-bottom: 10px; border: 1px solid whitesmoke; border-radius: 12px;;">join
+                            Now</button></a>
+                </div>
+                <div class="hero-nxt sense just mx-4" style=line-height:10px;>
+                    <i class="fa-solid fa-headset mt-3 mb-2"></i>
+                    <h5>Emergency Case</h5>
+                    <p style="font-size: 12px;">Call This Line</p>
+                    <p style="font-size: 12px;">+2349039905114</p>
+                    <!-- <a href=""><button class="btn"
+                            style="background-color: transparent; color: whitesmoke; margin-bottom: 10px; border: 1px solid whitesmoke; border-radius: 12px;">Contact
+                            Us</button></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- middle stage -->
+    <div class="target">
+<button class="tablink" onclick="openPage('Give_Monthly', this, 'var(--life)')">Give_Monthly</button>
+<button class="tablink" onclick="openPage('Donate_Once', this, 'var(--life)')" id="defaultOpen">Donate_Once</button>
+<button class="tablink" onclick="openPage('Quarterly_Donation', this, 'var(--life)')">Quarterly_Donation</button>
+<button class="tablink" onclick="openPage('Annual_Package', this, 'var(--life)')">Annual_Package</button>
+
+<div id="Give_Monthly" class="tabcontent">
+  <div class="descrip fry sense">
+    <div class="desword">
+      <h3>Make a Monthly Donation</h3>
+      <p>Around the world, children, women, and men are facing enormous obstacles. Poverty, disaster, violent conflict, and the acute impacts of climate change all have been complicated by the global pandemic. You can join us as we work together with local communities to help build a world where all can prosper.</p>
+      <p>Your gift today will go where it is needed most, helping us mobilize our teams in response to humanitarian crises in places like Ukraine, deliver lifesaving assistance to Yemeni children displaced by violent conflict, support farmers threatened by drought in Somalia, Kenya, and Ethiopia, assist small business owners affected by the economic consequences of COVID-19, and so much more.</p>
+    </div>
+    <div class="despic"></div>
+      <img src="./img/donate/annie-spratt-cVEOh_JJmEE-unsplash.jpg" alt="" style="height: 20rem; width:30rem">
+  </div>
+  <h4>Make Your Monthly Donation</h4>
+  <div class="amountbox fry mb-4">
+    <button class="change"><input type="checkbox">$25</button>
+    <button class="change"><input type="checkbox">$50</button>
+    <button class="change"><input type="checkbox">$100</button>
+    <button class="change"><input type="checkbox">$500</button>
+  </div>
+  <div class="choice mx-5 d-flex align-items-center">
+    <p class="mt-3 px-1 text-dark">Other $</p>
+    <input  type="number" class="px-1 py-1">
+  </div>
+  
+</div>
+
+<div id="Donate_Once" class="tabcontent">
+  <div class="descrip fry sense">
+    <div class="desword">
+      <h3>Donate Once</h3>
+      <p>Around the world, children, women, and men are facing enormous obstacles. Poverty, disaster, violent conflict, and the acute impacts of climate change all have been complicated by the global pandemic. You can join us as we work together with local communities to help build a world where all can prosper.</p>
+      <p>Your gift today will go where it is needed most, helping us mobilize our teams in response to humanitarian crises in places like Ukraine, deliver lifesaving assistance to Yemeni children displaced by violent conflict, support farmers threatened by drought in Somalia, Kenya, and Ethiopia, assist small business owners affected by the economic consequences of COVID-19, and so much more.</p>
+    </div>
+    <div class="despic"></div>
+      <img src="./img/donate/doug-linstedt-jEEYZsaxbH4-unsplash.jpg" alt="" style="height: 20rem; width:30rem">
+  </div>
+  <h4>Donate Today</h4>
+  <div class="amountbox fry mb-4">
+    <button class="change"><input type="checkbox">$50</button>
+    <button class="change"><input type="checkbox">$100</button>
+    <button class="change"><input type="checkbox">$200</button>
+    <button class="change"><input type="checkbox">$1000</button>
+  </div>
+  <div class="choice mx-5 d-flex align-items-center">
+    <p class="mt-3 px-1 text-dark">Other $</p>
+    <input  type="number" class="px-1 py-1">
+  </div>
+</div>
+
+<div id="Quarterly_Donation" class="tabcontent">
+  <div class="descrip fry sense">
+    <div class="desword">
+      <h3>Contribute Quarterly</h3>
+      <p>Around the world, children, women, and men are facing enormous obstacles. Poverty, disaster, violent conflict, and the acute impacts of climate change all have been complicated by the global pandemic. You can join us as we work together with local communities to help build a world where all can prosper.</p>
+      <p>Your gift today will go where it is needed most, helping us mobilize our teams in response to humanitarian crises in places like Ukraine, deliver lifesaving assistance to Yemeni children displaced by violent conflict, support farmers threatened by drought in Somalia, Kenya, and Ethiopia, assist small business owners affected by the economic consequences of COVID-19, and so much more.</p>
+    </div>
+    <div class="despic"></div>
+      <img src="./img/donate/samuel-aboh-NGVBWmvmSHI-unsplash.jpg" alt="" style="height: 20rem; width:80rem">
+  </div>
+  <h4>Your Quarterly Donations</h4>
+  <div class="amountbox fry mb-4">
+    <button class="change"><input type="checkbox">$100</button>
+    <button class="change"><input type="checkbox">$200</button>
+    <button class="change"><input type="checkbox">$300</button>
+    <button class="change"><input type="checkbox">$500</button>
+  </div>
+  <div class="choice mx-5 d-flex align-items-center">
+    <p class="mt-3 px-1 text-dark">Other $</p>
+    <input  type="number" class="px-1 py-1">
+  </div>
+</div>
+
+<div id="Annual_Package" class="tabcontent">
+  <div class="descrip fry sense">
+    <div class="desword">
+      <h3>Participate Annually</h3>
+      <p>Around the world, children, women, and men are facing enormous obstacles. Poverty, disaster, violent conflict, and the acute impacts of climate change all have been complicated by the global pandemic. You can join us as we work together with local communities to help build a world where all can prosper.</p>
+      <p>Your gift today will go where it is needed most, helping us mobilize our teams in response to humanitarian crises in places like Ukraine, deliver lifesaving assistance to Yemeni children displaced by violent conflict, support farmers threatened by drought in Somalia, Kenya, and Ethiopia, assist small business owners affected by the economic consequences of COVID-19, and so much more.</p>
+    </div>
+    <div class="despic"></div>
+      <img src="./img/donate/roman-nguyen-lPPkJ4NfQtQ-unsplash.jpg" alt="" style="height: 20rem; width:30rem">
+  </div>
+  <h4>Your Annual Options</h4>
+  <div class="amountbox fry mb-4">
+    <button class="change"><input type="checkbox">$500</button>
+    <button class="change"><input type="checkbox">$1000</button>
+    <button class="change"><input type="checkbox">$3000</button>
+    <button class="change"><input type="checkbox">$5000</button>
+  </div>
+  <div class="choice mx-5 d-flex align-items-center">
+    <p class="mt-3 px-1 text-dark">Other $</p>
+    <input  type="number" class="px-1 py-1">
+  </div>
+</div>
+    <!-- middle stage end -->
+    <!-- gifting section start -->
+    <div class="cry cont" style="margin-top: 3rem; color: whitesmoke; background-color: var(--life);">
+        <h2 class="heading h1 teal" style="font-family: cursive; text-align: center;">Africare Gifting Options</h2>
+    <div class="text extra-classy">
+        <h2 style="text-align: center;">
+            <p>Please select the item/items you wish to gift</p>
+        </h2>
+        <p style="font-size: 13px; text-align:center;">When donating you can select to purchase with, Paysafecard, Bank Transfer, Credit Card, Money Bookers and a
+            few other options are available.</p>
+        <p style="font-size: 13px; text-align:center;">By Donating you agree to our <a href="./policy.php">Refund Policy</a>. If you disagree to our Refund Policy
+            please Do Not Participate.</p>
+
+
+    </div>
+    <center>
+        <form action="" method="POST">
+          <h2>1. Your Donation</h2>
+            <div name="select" style="margin-bottom: 20px;">
+                <caption><b>GIFTs</b></caption>
+                <select name="product" style="display: block;">
+                    <option value="">$80.00 - Hp Laptop</option>
+                    <option value="">$35.00 - Modern White Board</option>
+                    <option value="">$35.00 - HD Projector</option>
+                    <option value="">$35.00 - A Pendulum Apparatus</option>
+                    <option value="">$24.99 - Cornical Flasks (x3)</option>
+                    <option value="">$49.99 - Fire EXtinguisher</option>
+                    <option value="">$9.99 -  classroom chair</option>
+                    <option value="">$24.99 - Ipad</option>
+                    <option value="">$49.99 - Dell Laptop 24(series)</option>
+                    <option value="">$14.99 - classroom tables</option>
+                    <option value="">$14.99 - Dissecting apparatus</option>
+                    <option value="">$14.99 - A Prism Glass</option>
+                    <option value="">$39.99 - A Textbook on Javascript</option>
+                    <option value="">$40.00 - A Textbook on Backend coding</option>
+                    <option value="">$14.99 - Antivirus Softwares</option>
+                    <option value="">$14.99 - Photocopier</option>
+                    <option value="">$14.99 - hp Deskjet 2150f</option>
+                    <option value="">$39.99 - First Aid Kit</option>
+                    <option value="">$9.99 -  Exercise Books</option>
+                    <option value="">$19.99 - Writing Materials</option>
+                    <option value="">$4.99 -  Markers</option>
+                </select>
+            </div>
+            <!-- <div name="name" style="margin-bottom: 20px;">
+                Name:
+                <input style="width: 50%;" type="text" maxlength="20" name="Name" value="Enter Name"
+                    onblur="if(this.value=='') this.value='Enter Name';"
+                    onfocus="if(this.value=='Enter Name') this.value='';" />
+            </div>
+            <div name="email" style="margin-bottom: 20px;">
+                Email:
+                <input style="width: 51%;" type="email" maxlength="20" name="Email" value="Enter Email@"
+                    onblur="if(this.value=='') this.value='Enter Email';"
+                    onfocus="if(this.value=='Enter Email@') this.value='';" />
+            </div>
+            <div name="address" style="margin-bottom: 20px;">
+                Address:
+                <input style="width: 49%;" type="address" maxlength="20" name="address" value="Enter Adress" 
+                    onblur="if(this.value=='') this.value='Enter Adress';"
+                    onfocus="if(this.value=='Enter Address') this.value='';" />
+            </div>
+            <div name="address" style="margin-bottom: 20px;">
+                City:
+                <input style="width: 52%;" type="text" maxlength="20" name="City" value="City Name" 
+                    onblur="if(this.value=='') this.value='City Name';"
+                    onfocus="if(this.value=='City Name') this.value='';" />
+            </div>
+            <div name="address" style="margin-bottom: 20px;">
+                Country:
+                <input style="width: 49%;" type="text" maxlength="20" name="country" value="Country" 
+                    onblur="if(this.value=='') this.value='Country';"
+                    onfocus="if(this.value=='Country') this.value='';" />
+            </div>
+            <div name="button">
+                <button type="submit" name="submit" value="Submit" style="margin-bottom: 20px; background-color: var(--class); color: whitesmoke; border:1px solid whitesmoke; border-radius: 10px; padding: 5px;">Submit</button>
+            </div> -->
+        </form>
+        <a href="http://www.plimus.com/ecommerce/buyers" target="_blank"
+            title="Trusted and Secure Online Payment Processing via PLIMUS"></a>
+    </center>
+    <center>
+
+        <p><strong> <a href="./donatepp.php">Click here to Donate using PayPal</a> </strong></p>
+
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <center>
+      <form class="cont epic" method="post">
+        <h2 style="text-align: left;">2. Personal Information</h2>
+       <div class="nomina d-flex">
+        <div class="mb-1">
+          <label for="InputFirstname" class="form-label">First Name <sup>*</sup></label>
+          <input type="text" class="form-control" id="exampleInputFirstname" aria-describedby="name">
+        </div>
+        <div class="mb-1">
+          <label for="InputLastname" class="form-label">Last Name <sup>*</sup></label>
+          <input type="name" class="form-control" id="InputLastname" aria-describedby="name">
+        </div>
+       </div>
+        <div class="mb-1">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-1">
+          <label for="InputAddress" class="form-label">Address <sup>*</sup></label>
+          <input type="address" class="form-control" id="InputAddress" aria-describedby="address">
+        </div>
+        <div class="nomina d-flex">
+          <div class="mb-1">
+            <label for="InputCity" class="form-label">City <sup>*</sup></label>
+            <input type="address" class="form-control" id="exampleInputCity" aria-describedby="City">
+          </div>
+          <div class="mb-1">
+            <label for="InputCountry" class="form-label">Country <sup>*</sup></label>
+            <input type="address" class="form-control" id="InputCountry" aria-describedby="country">
+          </div>
+        </div>
+        <div class="nomina1 mb-1">
+          <label for="InputPhone" class="form-label">Phone Number</label>
+          <input type="email" class="form-control" id="InputPhone" aria-describedby="Phone">
+        </div>
+        
+        <h2 style="text-align: left; margin-top: 2rem;">3. Payment Information</h2>
+
+        <h5 style="text-align: left; margin-left: 15px;">Credit/Debit</h5>
+        <label for="InputCardno" class="form-label"><b>Card Number</b></label>
+        <input type="text" class="form-control" id="InputCardno" aria-describedby="Card">
+        <div class="nomina2 d-flex">
+        <div class="mb-1">
+          <label for="InputDate" class="form-label"><b>Expiration Date</b></label>
+        <input type="datetime" class="form-control" id="InputDate" aria-describedby="Date">
+        </div>
+        <div class="mb-1">
+          <label for="InputCode" class="form-label"><b>Security Code</b></label>
+        <input type="number" class="form-control" id="InputCode" aria-describedby="Code">
+        </div>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+
+<h5 style="text-align: left; margin-left: 15px; margin-top: 1rem;">Bank Transfer/Cryptocurrency</h5>
+        <div class="row">
+          <div class="col">
+            <div class="tite">
+              <p>Pay To Zenith Bank</p>
+              <div class="zen d-flex align-items-center">
+                <img src="./img/bank/zent.jpg" alt="">
+                <p><b>2110692072</b></p>
+              </div>
+            </div>
+            <div class="tite">
+              <p>Pay To Fidelity Bank</p>
+              <div class="zen d-flex align-items-center">
+                <img src="./img/bank/zfidet.jpg" alt="">
+                <p><b>5454357865</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+           <div class="tite">
+            <p>Pay To The Bitcoin Address</p>
+            <div class="zen d-flex align-items-center">
+              <img src="./img/bank/zbitct.jpg" alt="">
+              <p style="font-size: 14px;"><b>bc1q4kyf9c0a2tghqrwfd2acut90x4vdjg2n6k3df2</b></p>
+            </div>
+           </div>
+            <div class="tite">
+              <p>Pay To The Ethereum Address</p>
+              <div class="zen d-flex align-items-center">
+                <img src="./img/bank/zethert.jpg" alt="">
+                <p style="font-size: 14px;"><b>0x48Bbf06cF0f212dD2443Ee88155208b54500f2</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </center>
+     <!-- gifting section end -->
+<!-- footer start -->
+<div class="plea my-1">
+  <footer
+          class="text-center text-lg-start text-white" style="background-color: black; font-size: small;">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">ABOUT AFRICARE</h5>
+              <p class="mb-5">
+              Africare is a global Non-Profit organization and Trust Fund, founded in 2020 after the initial covid-19 outbreak by its well-meaning, philanthropic and humanitarian pioneers, for the cause of tackling ignorance and re-growing Africa
+            </p>
+            <a href="index.html" style="text-decoration: none;">
+              <div class="origin fry sense">
+                <img style="width: 3rem; margin-right: 7px;" src="./img/logo/logo_three-removebg-preview.png" alt="">
+                <h2 style="color: whitesmoke;">AFRICARE</h2>
+            </div>
+            </a>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">NAVIGATION</h5>
+            <ul class="please list-unstyled mb-0">
+              <li>
+                <a href="index2.html" class="text-white">Home</a>
+              </li>
+              <li>
+                <a href="pioneers.html" class="text-white">Pioneers</a>
+              </li>
+              <li>
+                <a href="contributor.html" class="text-white">Contributors</a>
+              </li>
+              <li>
+                <a href="blog.html" class="text-white">Blog</a>
+              </li>
+              <li>
+                <a href="donate.html" class="text-white">Donate</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">ABOUT US</h5>
+
+            <ul class="please list-unstyled mb-0">
+              <li>
+                <a href="about.html" class="text-white">Who we are</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white">Mission statement</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white">Featured stories</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white">Upcoming Events</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">E-OUTREACH</h5>
+
+            <ul class="please list-unstyled mb-0">
+              <li>
+                <a href="e-outreach.html" class="text-white">Web Development</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">AI Programming</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Pastry making classes</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Crypto trading lessons</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Mobile app development</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">E-commerce websites</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Forex Trading Classes</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">CONTACT US</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li class="d-flex align-items-center">
+                  <i class="fa fa-phone"></i>  <p class="mt-1 ms-2">PHONE NO</p>
+              </li>
+              <li>
+                  <p>+234 903 990 5114</p>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="fa fa-home"></i> <p class="mt-1 ms-2">ADDRESS</p>
+              </li>
+              <li>
+                <p>Ikenegbu Owerri, Imo State Nigeria</p>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="fa-solid fa-at"></i> <p class="mt-1 ms-2">EMAIL ADDRESS</p>
+              </li>
+              <li>
+                <p>Africare@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <hr class="mb-4" />
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3">Join Us</span>
+          <a href="register.html"><button type="button" class="btn btn-outline-light btn-rounded">
+              Sign up!
+            </button></a>
+        </p>
+      </section>
+      <hr class="mb-4" />
+      <section class="mb-4 text-center">
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-facebook-f"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-twitter"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-google"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-instagram"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-linkedin-in"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-github"></i
+          ></a>
+      </section>
+    </div>
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-white" href="">Africare.com</a>
+    </div>
+  </footer>
+</div>
+<!-- footer end -->
+</body>
+<script src="./dist/js/bootstrap.min.js"></script>
+
+</html>

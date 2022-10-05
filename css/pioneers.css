@@ -1,0 +1,87 @@
+.all-contrib{
+    background-color: white;
+    margin-top: 1rem;
+}
+.all-peter{
+    background-color: whitesmoke;
+}
+.piero{
+    background-image: linear-gradient(rgba(95, 121, 156, 0.7), rgba(93, 134, 172, 0.6)), url(../img/pioneerx.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    opacity: 0.8;
+}
+.piero h1{
+    padding-top: 10rem;
+    color: var(--heaven);
+    font-size: 70px;
+    font-weight: 900;
+    font-style: oblique;
+}
+.piero p{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+}
+.dumb{
+    margin-bottom: 4rem;
+}
+.piero a{
+    margin-top: 10%;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 14px;
+    background-color: var(--dark);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.piero a:hover{
+    border: 7px outset white;
+    color: black;
+    background-color: transparent;
+}
+.peter-w::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    position: absolute;
+    top: 0%;
+}
+.peter-p img{
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+    object-fit: cover;
+}
+.all-peter{
+    border: 2px outset var(--life);
+    border-radius: 14px;
+    box-shadow: 2px 4px 6px black;
+    height: 50vh;
+}
+.plinks{
+    justify-content: right;
+    display: flex;
+    justify-content: right;
+}
+.plinks a{
+    text-decoration: none;   
+   
+}
+.plinks a:nth-child(1){
+    color: blue;
+}
+.plinks a:nth-child(2){
+    color: rgb(38, 38, 173);
+}
+.plinks a:nth-child(3){
+    color: var(--life);
+}
+.plinks a:nth-child(4){
+    color: black;
+}

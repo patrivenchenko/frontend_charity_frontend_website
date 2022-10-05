@@ -1,0 +1,401 @@
+/* about hero start */
+.carousel-item img{
+    height: 90vh;
+    margin-top: 3.8rem;  
+    opacity: 0.7;
+}
+.carousel-item{
+    background-color: var(--dark);
+}
+.carousel-caption h2{
+    font-size: 30px;
+    color: var(--life);
+}
+.carousel-caption p{
+    font-size: 30px;
+}
+.hero-about{
+    background-color: var(--life);
+    background-color: beige;
+}
+/* about hero end */
+
+/* detail start */
+.all-detail{
+    border-radius: 12px;
+    height: 95vh;
+}
+.all-detail h1{
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+    color: white;
+    font-style: oblique;
+    padding-top: 2rem;
+}
+.lined .fa-calendar{
+    font-size: 12px;
+}
+.detail{
+    background-image: url(../img/real/ben-white-83tkHLPgg2Q-unsplash.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    height: 85vh;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+.detail-wo{
+    background-color: var(--dark);
+    color: whitesmoke;
+    padding: 15px;
+    box-shadow: 2px 3px 5px black;
+    width: 35%;
+    height: 71vh;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border: 5px outset black;
+    opacity: 0.9;
+}
+.detail-wo h2{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 700;
+    text-align: center;
+}
+.detail-wo p{
+    font-size: medium;
+    line-height: 1.3rem;
+    font-family:'Times New Roman', Times, serif;
+}
+/* detail end */
+/* causes start */
+.causa1 img{
+    width: 100%;
+}
+.all-cause{
+    margin-top: 5rem;
+}
+.causes{
+    background-image: url(../img/real/miss4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    height: 82vh;
+}
+.causa2{
+    color: white;
+}
+.causa2 h1{
+    text-align: center;
+    color: white;
+}
+.causae1{
+    background-color: var(--life);
+    opacity: 0.9;
+    border-radius: 12px;
+    width: 40%;
+    margin-left: 5%;
+    font-size: 12px;
+    line-height: 1rem;
+}
+.causae1:hover{
+    width: 60%;
+    transition: 0.50s ease-in-out;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+.causae1 h2{
+    color: white;
+    padding: 6px;
+    font-style: oblique;
+    text-align: center;
+    font-size: medium;
+}
+.causae1 p{
+    padding: 3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.causae2{
+    background-color: var(--life);
+    opacity: 0.9;
+    border-radius: 12px;
+    width: 40%;
+    margin-left: 8%;
+    font-size: 12px;
+    line-height: 1rem;
+}
+.causae2:hover{
+    width: 60%;
+    transition: 0.50s ease-in-out;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+.causae2 h2{
+    color: white;
+    padding: 6px;
+    font-style: oblique;
+    text-align: center;
+    font-size: medium;
+}
+.causae2 p{
+    padding: 3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.causae3{
+    background-color: var(--life);
+    opacity: 0.9;
+    border-radius: 12px;
+    width: 40%;
+    margin-left: 11%;
+    font-size: 12px;
+    line-height: 1rem;
+}
+.causae3:hover{
+    width: 60%;
+    transition: 0.50s ease-in-out;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+.causae3 h2{
+    color: white;
+    padding: 6px;
+    font-style: oblique;
+    text-align: center;
+    font-size: medium;
+}
+.causae3 p{
+    padding: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+/* causes end */
+/* events start */
+.all-events{
+    display: flex;
+}
+.lined{
+    gap: 1%;
+    width: 100%;
+}
+.events h2{
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--life);
+}
+.events-1{
+    width: 100%;
+    padding: 10px;
+    box-shadow: 2px 3px 5px black;
+    border-radius: 13px;
+    margin-top: 1rem;
+}
+.events-1 img{
+    width: 14rem;
+    height: 12rem;
+}
+.events-1 p{
+    width: 14rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+.events-2{
+    width: 100%;
+    padding: 10px;
+    box-shadow: 2px 3px 5px black;
+    border-radius: 13px;
+    margin-top: 1rem;
+}
+.events-2 img{
+    width: 14rem;
+    height: 12rem;
+}
+.events-2 p{
+    width: 14rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+.events-3{
+    width: 100%;
+    padding: 10px;
+    box-shadow: 2px 3px 5px black;
+    border-radius: 13px;
+    margin-top: 1rem;
+}
+.events-3 img{
+    width: 14rem;
+    height: 12rem;
+}
+.events-3 p{
+    width: 14rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+.ghost1, .ghost2, .ghost3, .ghost4{
+    font-size: small;
+    width: 14rem;
+    font-family: sans-serif;
+    display: none;
+}
+.events-1:hover .ghost1{
+    display: block;
+    transition: 1,5s ease-in-out;
+}
+.events-2:hover .ghost2{
+    display: block;
+    transition: 1.5s ease-in-out;
+}
+.events-3:hover .ghost3{
+    display: block;
+    transition: 1.5s ease-in-out;
+}
+.events-4:hover .ghost4{
+    display: block;
+    transition: 1.5s ease-in-out;
+}
+.news{
+    margin-left: 5%;
+}
+.news h3{
+    font-size: large;
+    font-style: oblique;
+    margin-top: 2rem;
+    color: var(--life);
+}
+.news-pic img{
+    width: 6rem;
+    height: 4rem;
+}
+.news-wo{
+    font-size: 14px;
+}
+.latest{
+    gap: 3%;
+    border-bottom: 1px solid dimgray;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+.latest a{
+    text-decoration: none;
+    color: black;
+}
+.latest a:hover{
+    color: blue;
+}
+#timez{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+#timew{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+#timec{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+#timex{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+#timet{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+#timed{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+/* events end */
+/* prefs start */
+.all-pref{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    border-radius: 16px;
+    border-style: outset;
+    animation-name: mad;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: 0.30s ease-in-out;
+}
+@keyframes mad{
+    from{
+        background-color: var(--heaven);
+    }
+    45%{
+        background-color: var(--life);
+    }
+    to{
+        background-color: black;
+    }
+}
+.prefs img{
+    width: 100%;
+}
+.prefs1 img{
+    height: 15rem;
+    width: 21rem;
+    padding: 15px;
+    box-shadow: 2px 3px 5px black;
+}
+.prefs1 button{
+    background-color: white;
+    border: none;
+    color: brown;
+    width: 21rem;
+    padding: 5px 0 5px 0;
+    box-shadow: 2px 3px 5px black;
+}
+.prefs1 a:hover button{
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+}
+.prefs2 img{
+    height: 15rem;
+    width: 21rem;
+    padding: 15px;
+    box-shadow: 2px 3px 5px black;
+}
+.prefs2 button{
+    background-color: white;
+    border: none;
+    color: brown;
+    width: 21rem;
+    padding: 5px 0 5px 0;
+    box-shadow: 2px 3px 5px black;
+}
+.prefs2 a:hover button{
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+}
+/* prefs end */
+.hieme{
+    border: none; 
+    background-color:whitesmoke; 
+    color:black;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    margin-left: -5px;
+}
+.hieme:hover{
+    color: white;
+    background-color: black;
+}
+

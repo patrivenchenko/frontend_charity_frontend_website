@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/step.css">
+    <link rel="stylesheet" href="./css/special.css">
+    <title>enroll/outreach.africare</title>
+</head>
+<body>
+    <!-- nav start -->
+<nav class="navbar navbar-expand-sm  navbar-dark" style="background-color: var(--life); position: fixed; z-index:10; width: 100%;">
+    <div class="container-fluid">
+     <a href="index.html" style="text-decoration: none;">
+      <div class="origin fry sense">
+        <img style="width: 3rem; margin-right: 7px;" src="./img/logo/logo_three-removebg-preview.png" alt="">
+        <h2 style="color: whitesmoke;">AFRICARE</h2>
+    </div>
+     </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar" style="margin-left:23%;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index2.html">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ABOUT US</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html">Who We Are</a></li>
+              <li><a class="dropdown-item" href="about.html">Mission Statement</a></li>
+              <li><a class="dropdown-item" href="about.html">Featured Stories</a></li>
+              <li><a class="dropdown-item" href="about.html">Upcoming Events</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="pioneers.html">PIONEERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contributor.html">CONTRIBUTORS</a>
+            </li>  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">E-Outreach</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="e-outreach.html">Web Development</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">AI Programming class</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Pastry Making Courses</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Crypto Trading Lessons</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Mobile App Development</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Ecommerce Website</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Forex Trading Classes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">REGISTER</a>
+            </li>  
+            <li class="nav-item2 tpmar">
+              <button class="btn"><a class="nav-link" href="donate.html" style="background-color: white; color: black; ">DONATE</a></button>
+            </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav end -->
+  <!-- enroll form start -->
+  <div class="all container w-100 mb-3 mt-3">
+    <div class="etitle mt-3 text-center">
+        <h1>WELCOME TO AFRICARE E-OUTREACH</h1>
+        <h2>Enter the Requested Details And Begin Your Journey To Greatness</h2>
+    </div>
+
+    <form action="" class="mt-5">
+        <h2>Student Information</h2>
+        <!-- name -->
+        <div class="row mb-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+            </div>
+        </div>
+        <!-- email -->
+            <div class="col mb-3">
+                <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" required>
+            </div>
+        <!-- gender -->
+        <div class="col-sm-3">
+            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+            <select class="form-select" id="autoSizingSelect" required>
+              <option selected>Gender</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Non-binary</option>
+            </select>
+          </div>
+        <!-- birth date -->
+        <div class="row g-4 align-items-center">
+            <div class="col-sm-4">
+                <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                    <select class="form-select" id="autoSizingSelect" required>
+                      <option selected>Month</option>
+                      <option value="1">January</option>
+                      <option value="2">Febuary</option>
+                      <option value="3">March</option>
+                      <option value="3">April</option>
+                      <option value="3">May</option>
+                      <option value="3">June</option>
+                      <option value="3">July</option>
+                      <option value="3">August</option>
+                      <option value="3">September</option>
+                      <option value="3">October</option>
+                      <option value="3">November</option>
+                      <option value="3">December</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="col-sm-2">
+                <input type="number" class="form-control" placeholder="Day" aria-label="Day">
+            </div>
+            <div class="col-sm-3">
+                <input type="number" class="form-control" placeholder="Year" aria-label="Year">
+            </div>
+            <div class="col-sm">
+                <h4><i class="fa fa-calendar"></i></h4>
+            </div>
+        </div>
+       
+        <p>COURSE OF CHOICE</p>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Web Development
+            </label>
+        </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              AI Programming
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Pastry Making
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Crypto Trading 
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Mobile App Development
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              E-commerce
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Forex Trading
+            </label>
+        </div>
+
+        <h2>Current Residence Information</h2>
+        <!-- Address -->
+        <div class="col">
+            <address><input type="address" class="form-control" placeholder="Address" aria-label="Address" required></address>
+        </div>
+        <!-- city state zip -->
+        <div class="row g-3 mb-3">       
+            <div class="col-sm-3">
+                <input type="text" class="form-control" placeholder="City" aria-label="City">
+            </div>
+            <div class="col-sm-3">
+                <input type="Text" class="form-control" placeholder="State" aria-label="State">
+            </div>
+            <div class="col-sm-3">
+                <input type="number" class="form-control" placeholder="Postal/Zip Code" aria-label="Postal/Zip Code">
+            </div>
+            <div class="col-sm-3">
+                <input type="address" class="form-control" placeholder="Country" aria-label="Country">
+            </div>
+        </div>
+        <!-- Phone numbers -->
+        <div class="row">
+            <div class="col-sm-4">
+              <input type="number" class="form-control" placeholder="Home Phone Number" aria-label="Home Phone Number" required>
+            </div>
+            <div class="col-sm-4">
+              <input type="number" class="form-control" placeholder="Mobile Phone Number" aria-label="Mobile Phone Number" required>
+            </div>
+        </div>
+
+
+        
+        <p class="not mt-2" style="text-decoration: underline;"><b>Note:</b></p>
+        <p class="lead"><b>Please inform the office of any other vital information you think they may need to know in the event of an emergency. Thank you.</b></p>
+        <div class="mb-3">
+            <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+          </div>
+          <center>
+            <button class="btn btn-secondary mb-3 px-4 py-2 " type="submit">Submit</button>
+          </center>
+
+    </form>
+</div>
+  <!-- enroll form end -->
+<!-- footer start -->
+<div class="plea my-1">
+  <footer
+          class="text-center text-lg-start text-white" style="background-color: black; font-size: small;">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">ABOUT AFRICARE</h5>
+              <p class="mb-5">
+              Africare is a global Non-Profit organization and Trust Fund, founded in 2020 after the initial covid-19 outbreak by its well-meaning, philanthropic and humanitarian pioneers, for the cause of tackling ignorance and re-growing Africa
+            </p>
+            <a href="index.html" style="text-decoration: none;">
+              <div class="origin fry sense">
+                <img style="width: 3rem; margin-right: 7px;" src="./img/logo/logo_three-removebg-preview.png" alt="">
+                <h2 style="color: whitesmoke;">AFRICARE</h2>
+            </div>
+             </a>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">NAVIGATION</h5>
+            <ul class="please list-unstyled mb-0">
+              <li>
+                <a href="index2.html" class="text-white">Home</a>
+              </li>
+              <li>
+                <a href="pioneers.html" class="text-white">Pioneers</a>
+              </li>
+              <li>
+                <a href="contributor.html" class="text-white">Contributors</a>
+              </li>
+              <li>
+                <a href="blog.html" class="text-white">Blog</a>
+              </li>
+              <li>
+                <a href="donate.html" class="text-white">Donate</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">ABOUT US</h5>
+
+            <ul class="please list-unstyled mb-0">
+              <li>
+                <a href="about.html" class="text-white">Who we are</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white">Mission statement</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white">Featured stories</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white">Upcoming Events</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">E-OUTREACH</h5>
+
+            <ul class="please list-unstyled mb-0">
+              <li>
+                <a href="e-outreach.html" class="text-white">Web Development</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">AI Programming</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Pastry making classes</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Crypto trading lessons</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Mobile app development</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">E-commerce websites</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Forex Trading Classes</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">CONTACT US</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li class="d-flex align-items-center">
+                  <i class="fa fa-phone"></i>  <p class="mt-1 ms-2">PHONE NO</p>
+              </li>
+              <li>
+                  <p>+234 903 990 5114</p>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="fa fa-home"></i> <p class="mt-1 ms-2">ADDRESS</p>
+              </li>
+              <li>
+                <p>Ikenegbu Owerri, Imo State Nigeria</p>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="fa-solid fa-at"></i> <p class="mt-1 ms-2">EMAIL ADDRESS</p>
+              </li>
+              <li>
+                <p>Africare@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <hr class="mb-4" />
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3">Join Us</span>
+          <a href="register.html"><button type="button" class="btn btn-outline-light btn-rounded">
+              Sign up!
+            </button></a>
+        </p>
+      </section>
+      <hr class="mb-4" />
+      <section class="mb-4 text-center">
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-facebook-f"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-twitter"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-google"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-instagram"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-linkedin-in"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-github"></i
+          ></a>
+      </section>
+    </div>
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-white" href="">Africare.com</a>
+    </div>
+  </footer>
+</div>
+<!-- footer end -->
+</body>
+<script src="./dist/js/bootstrap.min.js"></script>
+</html>

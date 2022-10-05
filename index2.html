@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/index2.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <title>Index2.html</title>
+     <!-- scroll head -->
+     <script>
+        function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }}
+    </script>
+    <!-- scroll  head-->
+</head>
+<body>
+    <!-- scroll action -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+  <script>mybutton = document.getElementById("myBtn");</script>
+  <script>window.onscroll = function() {scrollFunction()};
+  </script>
+    <!-- scroll action -->
+    <!-- contact flyer start -->
+<div class="callout">
+    <div class="callout-header">Contact Us Quickly</div>
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <div class="callout-container">
+      <p>Click On The First Icon On The Side Bar To Do This</p>
+    </div>
+  </div>
+     <div class="flyer">
+      <ul>
+        <li>
+          <button type="button" class="bag" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-square-minus"></i>
+          </button>
+        </li>
+        <li><a href=""><i class="fa-brands fa-facebook"></i></a></i></li>
+        <li><a href=""><i class="fa-brands fa-twitter"></i></a></i></li>
+        <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></i></li>
+      </ul>
+     </div>
+  <!-- contact flyer end -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false" style="width:80rem ; overflow-x: visible; margin-right: 30px;">
+    <div class="modal-dialog" style="width:55rem ;">
+      <div class="modal-content" style="width:55rem ;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h4>AFRICARE</h4>
+          <h6>Here To Help</h6>
+          <div class="concise ">
+            <div class="talk">
+              <h1><i class="fa-solid fa-phone"></i></h1>
+              <h4>Talk To Our Services Personnel</h4>
+              <p><b>Phone No</b></p>
+              <p>+2349039905114</p>
+              <p><b>Emergency Hotline</b></p>
+              <p>+2349066451518</p>
+              <p>We are here to help and answer any question</p>
+              <p>you might have. We look forward to hearing from you</p>
+            </div>
+            <div class="chat">
+              <h1><i class="fa-solid fa-comment"></i></h1>
+              <h3>How Can We Help?</h3>
+              <p>Send us a message</p>
+              <form action="">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email Address">
+                <textarea name="message" cols="50" rows="5" placeholder="message"></textarea>
+              </form>
+              <div class="mdlink">
+               <h4>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-Instagram-square"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+               </h4>
+              </div>
+          </div>
+  
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal end -->
+  <!-- alert item start -->
+<div class="alert bg-white fixed-bottom alert-dissmissible fade show w-50 container-fluid">
+    <div class="red d-flex">
+     <p>Subscribe To Our Newsletter To Get The Latest Update</p>
+     <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+     <div class="news mb-3">
+         <div class="news-inner w-100 border d-flex align-items-center">
+             <i class="fa fa-envelope"></i>
+             <input type="email" class="form-controls w-100 border-none outline-none" placeholder="Enter Email">
+         </div>
+         <button class="btn btn-info" style="color: whitesmoke;">Subscribe</button>
+     </div>
+  </div>
+    <!-- alert item end -->
+<!-- nav start -->
+<nav class="navbar navbar-expand-sm  navbar-dark" style="background-color: var(--life); position: fixed; z-index:10; width: 100%;">
+    <div class="container-fluid">
+      <div class="origin fry sense">
+          <a href="index.html"  style="text-decoration: none;" class="fry">
+          <img style="width: 3rem; margin-right: 7px;" src="./img/logo/logo_three-removebg-preview.png" alt="">
+          <h2 style="color: whitesmoke;">AFRICARE</h2>
+          </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar" style="margin-left:23%;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html"  style="color: black;">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#about.html" role="button" data-bs-toggle="dropdown">ABOUT US</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html">Who We Are</a></li>
+              <li><a class="dropdown-item" href="about.html">Mission Statement</a></li>
+              <li><a class="dropdown-item" href="about.html">Featured Stories</a></li>
+              <li><a class="dropdown-item" href="about.html">Upcoming Events</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="pioneers.html" >PIONEERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contributor.html" >CONTRIBUTORS</a>
+            </li>  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">E-Outreach</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="e-outreach.html">Web Development</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">AI Programming class</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Pastry Making Courses</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Crypto Trading Lessons</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Mobile App Development</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Ecommerce Website</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Forex Trading Classes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">REGISTER</a>
+            </li>  
+            <li class="nav-item2 tpmar">
+              <button class="btn"><a class="nav-link" href="donate.html"  style="background-color: white; color: black; border-radius: 7px;">DONATE</a></button>
+            </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav end -->
+  <!-- hero-page start -->
+  <div class="all-ihero">
+    <div class="ihero container-sm">
+    <h1><span>Give A Hand</span></h1>
+    <h2>To Make The World Better For The African Child</h2>
+    <p>A life lived in participation, is one of full value.</p>
+    <p>Join our causes today; empower the child and let the annals of time be your witness</p>
+    <div class="hero-btn fry sense just">
+      <a href="donate.html"><button>Donate Now</button></a>
+      <a href="about.html"><button>Our Causes</button></a>
+    </div>
+    </div>
+</div>
+<!-- hero-page end -->
+<!-- reach info start -->
+<div class="all-reach">
+    <div class="reach fry sense just1 container-sm">
+      <div class="pics1"> 
+           <h3 class="cap1">10m+</h3>
+           <p>Peoples Reached Across Africa</p>
+           <p>Changing The World One Bit At A Time</p>
+       </div>
+      <div class="pics1"> 
+           <h3 class="cap1">23+</h3>
+           <p>Countries As Beneficiaries</p>
+           <p>Giving Africa A Chance</p>
+       </div>
+      <div class="pics1"> 
+           <h3 class="cap1">3000+ </h3>
+           <p>Contributors Engaged For Our Cause</p>
+           <p>Displaying The Strength Of Togetherness</p>
+       </div>
+   </div>
+  </div>
+  <!-- reach info end -->
+  <!-- featured stories start -->
+<div class="all-storiez">
+    <div class="all-stories container-sm">
+      <h1>Featured Stories</h1>
+      <div class="stories-1 fry just row">
+        <div class="story col">
+          <img src="./img/story/pexels-akela-photography-448877.jpg" alt="">
+          <h1>Morroco Opens Her Schools To Girls</h1>
+          <p>A new morrocan law, comprehensively, provides for free and compulsory primary education for children age to fifteen. Morroco as of recent have made advances in expanding primary school, but more telling is their inclusion of the girl child as recipients too</p>
+          <a href="about.html"><i class="fa fa-arrow-right"></i> Read More</a>
+        </div>
+        <div class="story col">
+          <img src="./img/story/pexels-katerina-holmes-5905966.jpg" alt="">
+          <h1>Kelechi Receives Africare Sponsorship</h1>
+          <p>Kelechi Nwaogu, who hails from Oru-East Orlu Senatorial zone of Imo State Nigeria, becomes a beneficiary of the newly adopted program of Africare; "Paving way for the child". He lost his whole family to the incessant killings in the region of his birth</p>
+          <a href="about.html"><i class="fa fa-arrow-right"></i> Read More</a>
+        </div>
+        <div class="story col">
+          <img src="./img/story/pexels-rfstudio-3825585.jpg" alt="">
+          <h1>Bryan Develops an OS For Computers</h1>
+          <p>In a surprising event and in an astonishing manner, Kwame George of Ghana, a child of grace and great potential, recognized early by Africare, has developed a fully functional Operating system for computers, just at the tender age of fifteen</p>
+          <a href="about.html"><i class="fa fa-arrow-right"></i> Read More</a>
+        </div>
+      </div>
+      <div class="stories-1 fry just1 row">
+        <div class="story col">
+          <img src="./img/story/story 7.jpg" alt="">
+          <h1>Women Rights In Algeria Sees A New Dawn</h1>
+          <p>The right to vote for the Algerian woman came with independence in the year 1962. Despite this, women had to continue fughting for equal rights and are still underreoresented politically. But in a turn of events, their steadfastness seems to have started paying dividends</p>
+          <a href="about.html"><i class="fa fa-arrow-right"></i> Read More</a>
+        </div>
+        <div class="story col">
+          <img src="./img/story/story 8.jpg" alt="">
+          <h1>Africare Nigerian Liason Gets An Award</h1>
+          <p>Africare's Nigerian liason and relations officer, was awarded for excellence on the 18th August, 2022 by the federal government of Nigeria, for an exemplary work ethic, ingenuity, dedication and selflessness. In a statement, he thanked the government.</p>
+          <a href="about.html"><i class="fa fa-arrow-right"></i> Read More</a>
+        </div>
+        <div class="story col">
+          <img src="./img/story/story 6.jpg" alt="">
+          <h1>Tunisian Girl Children finally Gets A Say</h1>
+          <p>The situation and conditions in which women and girl childs in Tunisia are subjected to, hit an all time low at the backend of the covid-19 pandemic in 2020. Their treatment by family was very poor up until international bodies charged by Africare started to intervene</p>
+          <a href="about.html"><i class="fa fa-arrow-right"></i> Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="story-btn fry just">
+      <button><a href="about.html">See More Stories</a></button>
+    </div>
+  </div>
+  <!-- featured stories end -->
+  <!-- blogs start -->
+<div class="all-blog container-sm">
+    <h1 class="tame">News Feed</h1>
+    <div class="blogs fry sense row">
+      <div class="blogs-1 col">
+        <img src="./img/story/story 9.jpg" alt="">
+          <h1>New Sharia Law chops away more freedom from the girl Child</h1>
+          <p>The new Sharia law passed in the northern part of the country Nigeria further subjugates the female folk</p>
+        <a href="blog.html">    
+          <p><span>Read More</span>  <i class="fa fa-arrow-right"></i></p>
+        </a>
+      </div>
+      <div class="blogs-1 col">
+        <img src="./img/refugee1.jpg" alt="">
+          <h1>England Opens Its Borders To Ukrainian Refugees</h1>
+          <p>The English nation, in the spirit co-vivance, has opened its borders and reduced her strigent rules on migration for Ukrainians </p>
+        <a href="blog.html">
+          <p><span>Read More</span>  <i class="fa fa-arrow-right"></i></p>
+        </a>
+      </div>
+      <div class="blogs-1 col">
+        <img src="./img/yemen1.jpg" alt="">
+        <h1>Drought Continues to Plague Yemen And Its Bordering Nations</h1>
+        <p>Yemen continues to face tough times as the drought that has haunted and starved thousands of Her citizens persist</p>
+        <a href="blog.html">
+          <p><span>Read More</span>  <i class="fa fa-arrow-right"></i></p>
+        </a>
+      </div>
+    </div>
+    <div class="blogs fry sense row">
+      <div class="blogs-1 col">
+        <img src="./img/blog/renew u - Copy.jpg" alt="">
+          <h1>Africare Ventures Into Renewable Energy For South-East Nigeria</h1>
+          <p>Considering the instability of Eletrical power supply to most areas of South-East Nigeria, Africare extended its aid for growth</p>
+        <a href="blog.html">
+          <p><span>Read More</span>  <i class="fa fa-arrow-right"></i></p>
+        </a>
+      </div>
+      <div class="blogs-1 col">
+        <img src="./img/blog/pope.jpg" alt="">
+          <h1>The Vatican Rallies Around For Operation Feed Children Day</h1>
+          <p>The Pope in solidarity with the Christian brethren all over the world, recently took the first step towards inspiring care for children</p>
+        <a href="blog.html">
+          <p><span>Read More</span>  <i class="fa fa-arrow-right"></i></p>
+        </a>
+      </div>
+      <div class="blogs-1 col">
+        <img src="./img/south asia.jpg" alt="">
+          <h1>Aficare Leads Mission To Help Displaced Children of South-Asia</h1>
+          <p>Africare joined the first responders, to alleviate and mitigate the suffering of children in South-Asia caused by instability</p>
+        <a href="blog.html">
+          <p><span>Read More</span>  <i class="fa fa-arrow-right"></i></p>
+        </a>
+      </div>
+    </div>
+    <div class="blogz-btn fry just">
+      <button><a href="blog.html">See More News</a></button>
+    </div>
+  </div>
+  <!-- blogs end -->
+  <!-- we are start r -->
+<div class="all-we cont1">
+    <h1>Who Are We?</h1>
+    <div class="we-1 row d-flex align-items-center">
+      
+        <div class="info-pix col">
+            <img src="./img/who/who12.jpg" alt="">
+        </div>
+        <div class="info-word col">
+          <h3>We Are Africare</h3>
+          <p>Africare is a global Non-Profit organization and Trust Fund, founded in 2020 after the initial covid-19 outbreak by its well-meaning, philanthropic and humanitarian pioneers, for the cause of tackling ignorance and its malaises, <span>and limitations brought about due to the lack of technical know-how on the aspect of Information Technology. And also for the empowering of innovative and powerful ideas of African Children born without the option of a chance or opportunity.</span></p>
+          <a href="about.html" class="info-tag">Learn More</a>
+        </div>
+      
+    </div>
+  </div>
+  <!-- we are end r -->
+  <!-- mission statement start -->
+<div class="all-state container-fluid">
+    <h1>Mission Statements</h1>
+  <div class="missions row">
+    <div class="statement1 col-4 order-last">
+      <div class="state1">
+        <img src="./img/who/who3.jpg" alt="">
+      </div>
+      <div class="state2">
+        <h3>Empowering The African Child</h3>
+      </div>
+    </div>
+    <div class="statement1 col-4">
+      <div class="state1">
+        <img src="./img/home/home 4.jpg" alt="">
+      </div>
+      <div class="state2">
+        <h3>Creating A Tommorrow For Children</h3>
+      </div>
+    </div>
+    <div class="statement1 col-4 order-first">
+      <div class="state1">
+        <img src="./img/who/who1.jpg" alt="">
+      </div>
+      <div class="state2">
+        <h3>Liberating peoples from Traditional, Cultural, Mental and Geographical Paralysis</h3>
+      </div>
+    </div>
+  </div>
+    <a href="about.html">Understand Better <i class="fa fa-arrow-right"></i></a>
+  </div>
+<!-- mission statement end -->
+<!-- footer start -->
+<div class="plea my-1">
+    <footer
+            class="text-center text-lg-start text-white" style="background-color: black; font-size: small;">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">ABOUT AFRICARE</h5>
+                <p class="mb-5">
+                Africare is a global Non-Profit organization and Trust Fund, founded in 2020 after the initial covid-19 outbreak by its well-meaning, philanthropic and humanitarian pioneers, for the cause of tackling ignorance and re-growing Africa
+              </p>
+              <div class="origin fry sense">
+                <a href="index.html"  style="text-decoration: none;" class="fry">
+                <img style="width: 3rem; margin-right: 7px;" src="./img/logo/logo_three-removebg-preview.png" alt="">
+                <h2 style="color: whitesmoke;">AFRICARE</h2>
+                </a>
+            </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">NAVIGATION</h5>
+              <ul class="please list-unstyled mb-0">
+                <li>
+                  <a href="index2.html" class="text-white">Home</a>
+                </li>
+                <li>
+                  <a href="pioneers.html" class="text-white">Pioneers</a>
+                </li>
+                <li>
+                  <a href="contributor.html" class="text-white">Contributors</a>
+                </li>
+                <li>
+                  <a href="blog.html" class="text-white">Blog</a>
+                </li>
+                <li>
+                  <a href="donate.html" class="text-white">Donate</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">ABOUT US</h5>
+  
+              <ul class="please list-unstyled mb-0">
+                <li>
+                  <a href="about.html" class="text-white">Who we are</a>
+                </li>
+                <li>
+                  <a href="about.html" class="text-white">Mission statement</a>
+                </li>
+                <li>
+                  <a href="about.html" class="text-white">Featured stories</a>
+                </li>
+                <li>
+                  <a href="about.html" class="text-white">Upcoming Events</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">E-OUTREACH</h5>
+  
+              <ul class="please list-unstyled mb-0">
+                <li>
+                  <a href="e-outreach.html" class="text-white">Web Development</a>
+                </li>
+                <li>
+                  <a href="e-outreach.html" class="text-white">AI Programming</a>
+                </li>
+                <li>
+                  <a href="e-outreach.html" class="text-white">Pastry making classes</a>
+                </li>
+                <li>
+                  <a href="e-outreach.html" class="text-white">Crypto trading lessons</a>
+                </li>
+                <li>
+                  <a href="e-outreach.html" class="text-white">Mobile app development</a>
+                </li>
+                <li>
+                  <a href="e-outreach.html" class="text-white">E-commerce websites</a>
+                </li>
+                <li>
+                  <a href="e-outreach.html" class="text-white">Forex Trading Classes</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">CONTACT US</h5>
+  
+              <ul class="list-unstyled mb-0">
+                <li class="d-flex align-items-center">
+                    <i class="fa fa-phone"></i>  <p class="mt-1 ms-2">PHONE NO</p>
+                </li>
+                <li>
+                    <p>+234 903 990 5114</p>
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa fa-home"></i> <p class="mt-1 ms-2">ADDRESS</p>
+                </li>
+                <li>
+                  <p>Ikenegbu Owerri, Imo State Nigeria</p>
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-at"></i> <p class="mt-1 ms-2">EMAIL ADDRESS</p>
+                </li>
+                <li>
+                  <p>Africare@gmail.com</p>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <hr class="mb-4" />
+        <section class="">
+          <p class="d-flex justify-content-center align-items-center">
+            <span class="me-3">Join Us</span>
+            <a href="register.html"><button type="button" class="btn btn-outline-light btn-rounded">
+                Sign up!
+              </button></a>
+          </p>
+        </section>
+        <hr class="mb-4" />
+        <section class="mb-4 text-center">
+          <a
+             class="btn btn-outline-light btn-floating m-1"
+             href="#!"
+             role="button"
+             ><i class="fab fa-facebook-f"></i
+            ></a>
+          <a
+             class="btn btn-outline-light btn-floating m-1"
+             href="#!"
+             role="button"
+             ><i class="fab fa-twitter"></i
+            ></a>
+          <a
+             class="btn btn-outline-light btn-floating m-1"
+             href="#!"
+             role="button"
+             ><i class="fab fa-google"></i
+            ></a>
+          <a
+             class="btn btn-outline-light btn-floating m-1"
+             href="#!"
+             role="button"
+             ><i class="fab fa-instagram"></i
+            ></a>
+          <a
+             class="btn btn-outline-light btn-floating m-1"
+             href="#!"
+             role="button"
+             ><i class="fab fa-linkedin-in"></i
+            ></a>
+          <a
+             class="btn btn-outline-light btn-floating m-1"
+             href="#!"
+             role="button"
+             ><i class="fab fa-github"></i
+            ></a>
+        </section>
+      </div>
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" href="">Africare.com</a>
+      </div>
+    </footer>
+  </div>
+  <!-- footer end -->
+</body>
+<script src="./dist/js/bootstrap.min.js"></script>
+</html>

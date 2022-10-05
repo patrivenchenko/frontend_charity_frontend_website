@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/class.css">
+    <link rel="stylesheet" href="./css/special.css">
+    <title>class.africare.com</title>
+    <script>
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    function myFunction() {
+    if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+    } else {
+    navbar.classList.remove("sticky");
+    }
+    }
+    </script>
+       <!-- scroll head -->
+       <script>
+        function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }}
+    </script>
+    <!-- scroll  head-->
+    <script>
+    function openTab(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+    }
+    </script>
+</head>
+<body>
+    <!-- scroll action -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+  <script>mybutton = document.getElementById("myBtn");</script>
+  <script>window.onscroll = function() {scrollFunction()};
+  </script>
+    <!-- scroll action -->
+    <!-- nav start -->
+<nav class="navbar navbar-expand-sm  navbar-dark" style="background-color: var(--life); position: fixed; z-index:10; width: 100%;">
+    <div class="container-fluid">
+      <div class="origin fry sense">
+          <a href="index.html"  style="text-decoration: none;" class="fry">
+          <img style="width: 3rem; margin-right: 7px;" src="./img/logo/logo_three-removebg-preview.png" alt="">
+          <h2 style="color: whitesmoke;">AFRICARE</h2>
+          </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar" style="margin-left:23%;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#about.html" role="button" data-bs-toggle="dropdown">ABOUT US</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html">Who We Are</a></li>
+              <li><a class="dropdown-item" href="about.html">Mission Statement</a></li>
+              <li><a class="dropdown-item" href="about.html">Featured Stories</a></li>
+              <li><a class="dropdown-item" href="about.html">Upcoming Events</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="pioneers.html" >PIONEERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contributor.html" >CONTRIBUTORS</a>
+            </li>  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" style="color: black;">E-Outreach</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="e-outreach.html">Web Development</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">AI Programming class</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Pastry Making Courses</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Crypto Trading Lessons</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Mobile App Development</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Ecommerce Website</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Forex Trading Classes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html" >NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html" >SIGN UP</a>
+            </li>  
+            <li class="nav-item2 tpmar">
+              <button class="btn"><a class="nav-link" href="donate.html"  style="background-color: white; color: black; border-radius: 7px;">DONATE</a></button>
+            </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav end -->
+
+  <!-- course items start -->
+  <div id="navbar">
+    <div><a class="web" href="class.html">Web development Lectures</a></div>
+    <div><a class="ai" href="class1.html">AI Programming Lectures</a></div>
+    <div><a class="past" href="class2.html">Pastry Making Lectures</a></div>
+    <div><a class="cry active" href="class3.html" style="background-color: var(--life); color:white">Crypto Trading Lectures</a></div>
+    <div><a class="mob" href="class4.html">Mobile App Development</a></div>
+    <div><a class="e-com" href="class5.html">E-commerce Website Lectures</a></div>
+    <div><a class="fore" href="class6.html">Forex Trading Lectures</a></div>
+  </div>
+  <!-- course items end -->
+  <!-- side nav start -->
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Course Introduction') ">Course Introduction</button>
+    <button class="tablinks" onclick="openTab(event, 'How to trade')">How to trade</button>
+    <button class="tablinks" onclick="openTab(event, 'Profitable trading')">Profitable trading</button>
+    <button class="tablinks" onclick="openTab(event, 'Strategies')">Strategies</button>
+    <button class="tablinks" onclick="openTab(event, 'trading tecniques')">trading tecniques</button>
+    <button class="tablinks" onclick="openTab(event, 'Day Trading & Swing Trading')">Day Trading & Swing Trading</button>
+    <button class="tablinks" onclick="openTab(event, 'Chart pattern trading')">Chart pattern trading</button>
+    <button class="tablinks" onclick="openTab(event, 'Test')">Test</button>
+  </div>
+  
+  <div id="Introduction" class="tabcontent">
+    <h3 class="text-center">INTRODUCTION</h3>
+    <p>HTML is the standard markup language for creating Web pages</p>
+    <h4>What is HTML?</h4>
+    <ul>
+        <li>HTML stands for Hyper Text Markup Language</li>
+        <li>HTML is the standard markup language for creating Web pages</li>
+        <li>HTML describes the structure of a Web page</li>
+        <li>HTML consists of a series of elements</li>
+        <li>HTML elements tell the browser how to display the content</li>
+        <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+    </ul>
+    <h5>Special Tags Explained</h5>
+    <ul>
+        <li>The < !DOCTYPE html ></span> declaration defines that this document is an HTML5 document</li>
+        <li>The < html > element is the root element of an HTML page</li>
+        <li>The < head > element contains meta information about the HTML page</li>
+        <li>The < title > element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+        <li>The < body > element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+        <li>The < h1 > element defines a large heading</li>
+        <li>The < p > element defines a paragraph</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequuntur numquam fuga molestiae ad quo, deserunt tempore aperiam, iste quibusdam nam quis optio! Corporis deleniti praesentium ea facilis, nemo sit in asperiores quis mollitia cum iure non incidunt porro cupiditate dignissimos molestiae! Quas, et dolorum hic placeat provident impedit tempore maiores tenetur, eum a veritatis nesciunt porro quidem velit consectetur doloribus, repellendus incidunt nulla suscipit voluptates asperiores id eos cupiditate!</p>
+    <h3 class="text-center">History of HTML</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus magni illo necessitatibus fugit, ex numquam voluptas culpa velit sequi, voluptates veritatis! In dignissimos dicta vel doloribus qui voluptatum omnis. Doloremque amet quibusdam minus incidunt? Eveniet ab laborum fugit quia impedit libero? Ea sit eligendi vitae error aspernatur, nulla autem minima itaque perspiciatis nisi, quisquam sint totam dolorem ipsam unde cupiditate sed quis libero quam illum suscipit! Accusantium omnis vitae consectetur quasi, officiis dolorem nulla, reprehenderit quo repellendus iure totam cupiditate et alias quidem accusamus veniam animi quas ullam rem doloribus provident! Debitis commodi fugit aperiam, saepe voluptates reiciendis, quaerat porro unde recusandae dolore laudantium eius dolores? Dolor ullam eum et perspiciatis velit mollitia, quibusdam reprehenderit quaerat! Error explicabo, magnam laborum iste, ipsa illum distinctio maiores est aperiam id quas dolor unde quisquam quae aut officia dignissimos doloremque corrupti. Minus nobis nisi quos, suscipit unde et facere alias. Quidem, et minima.</p>
+  </div>
+  
+  <div id="HTML" class="tabcontent" style="display: none;">
+    <h3 class="text-center">HTML OVERVIEW</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nobis iure voluptatum! Nobis accusamus at deserunt porro quam? Animi facere sapiente voluptatem sit accusamus vitae quod reprehenderit ipsam aspernatur deserunt recusandae nisi perspiciatis velit ipsa et, ipsum doloremque, incidunt, error amet dolorum dolore iste quasi atque. Molestiae, eos? Doloremque tenetur at deleniti minima. Quidem deserunt nulla architecto quibusdam, error cupiditate rem optio, voluptatum iste labore facilis. Unde, vel iusto facilis assumenda quo deserunt id fuga illo, dolorem accusantium optio veniam animi cumque fugiat natus, nulla quaerat voluptatum quidem aliquam eos. Ratione nobis labore, velit dolorum ad tenetur dignissimos similique tempora ipsum iusto quo vero dolorem cum pariatur. Earum fugit natus architecto nesciunt nobis dicta deserunt officiis quae corrupti quasi ea recusandae, doloribus porro vero laudantium eligendi, eveniet praesentium ipsum autem pariatur corporis quaerat? Corporis hic voluptate neque suscipit odit odio voluptatem officiis numquam? Voluptates veniam beatae voluptatum tempore consequuntur vero voluptate, vitae officia! Ratione consectetur voluptas repellat, hic at nam, voluptate velit deserunt quaerat esse praesentium temporibus rerum fugiat labore sed veniam consequatur earum facilis exercitationem quae pariatur! Voluptatum sit similique modi laborum mollitia aliquam, veritatis dolor odit! Eius officiis ullam aliquam praesentium adipisci dolorem enim labore iste accusamus deserunt.</p>
+    <h4 class="text-center">Rules To HTML Use</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, aliquam, minima reiciendis illum voluptates iure voluptatum vel earum veritatis nulla adipisci! A voluptatibus facilis veritatis provident expedita perspiciatis velit dolorem molestias eum nemo? Optio illo quasi veniam quibusdam! Facere culpa rerum ex, nesciunt corrupti exercitationem sed quod molestias quidem fuga eligendi facilis expedita tempore repellendus eius. Atque esse voluptatum voluptatibus officia distinctio! Ratione dignissimos quis reprehenderit, ullam quisquam repellendus quasi, odit minima facilis aperiam sit ipsum libero ex nesciunt corporis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et maxime consequatur deserunt provident fugit tenetur quod impedit eveniet voluptas natus, optio facilis. Porro a, rem placeat, excepturi repudiandae quaerat fuga minima distinctio doloremque aperiam modi. Aut, aperiam officia quo perferendis eos similique veritatis sed vel voluptas incidunt, iste voluptatibus repudiandae corporis qui eius doloremque sit natus ducimus, laborum nam numquam dolore quasi. Sint quo, illo porro exercitationem reiciendis aperiam laudantium similique iure modi perferendis explicabo molestias obcaecati sapiente repellendus vitae impedit? Aperiam dolore ratione temporibus error, similique aliquam aut asperiores!</p>
+  </div>
+  
+  <div id="CSS" class="tabcontent" style="display: none;">
+    <h3 class="text-center">CSS RUBRICS</h3>
+    <p>The CSS acronym stands for cascading style sheet.</p>
+    <p>Css makes it possible to give styling and parameters to different website elements that help shape the appearance and better the user interface of a websites and inadvertently bring about a wonderful user experience</p>
+    <p>the cascading style sheet is the founadtion for the beautification and arrangement of the contents of a website</p>
+    <h2>Types of CSS</h2>
+    <ul>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+        <li>Inline CSS</li>
+    </ul>
+    <h4>Internal CSS</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, hic? Culpa, vitae earum! Vitae ab est sit nisi culpa explicabo ipsa earum sint dicta doloribus architecto nam repellendus, perferendis dolorum quos accusantium, perspiciatis id voluptatum totam aut voluptate minus incidunt et? Perferendis consequatur maiores at sit quaerat. Illo unde, assumenda distinctio cupiditate, doloribus mollitia doloremque, quia ab qui recusandae dolores? Iste, ipsum! Sequi, cum. Numquam, dicta deleniti. Error quia, earum voluptates excepturi magni molestiae sunt consectetur molestias eaque illo? Velit ipsam unde similique officiis consectetur aliquam molestiae, aperiam vero consequuntur obcaecati saepe a doloremque! Praesentium eius perspiciatis quae nam corporis?</p>
+    <h4>External CSS</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa ducimus fuga, iusto ad laborum architecto nobis quisquam atque eius magni porro provident? Natus atque earum, nulla perferendis libero exercitationem! Alias quas magni repudiandae neque facere amet, quod ea ab exercitationem animi voluptas, nisi placeat fuga molestiae suscipit hic itaque fugiat dignissimos beatae officiis eos? Odio, dolorum minima voluptates eos dolor inventore pariatur est aperiam possimus doloremque commodi at facilis quia. Accusantium fuga illo ratione quod, deleniti facere? Esse, ad ducimus?</p>
+    <h4>Inline CSS</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi distinctio quibusdam magnam ipsam dolorem architecto, pariatur quo rerum saepe ea culpa natus quas adipisci porro, numquam velit? Beatae eaque mollitia tempore fugit nihil. Deserunt distinctio, quo rem harum incidunt eaque. Modi ad nam dicta id. Aliquam cupiditate animi cumque distinctio perferendis at aut itaque vero explicabo, dolores dolor quam adipisci aperiam nisi temporibus accusantium ipsa maiores fuga. Numquam provident dicta corrupti maxime quidem quis sequi veniam velit vitae, ad optio officiis, fugiat beatae labore quasi? Accusantium ad aliquam similique animi, voluptatum ullam? Velit quia officia, quos pariatur ab ipsum rerum eos dolore fugiat eius esse cum quisquam in voluptatem eum repellat temporibus tenetur praesentium quis explicabo! Inventore eveniet consequuntur adipisci.</p>
+  </div>
+  <div id="Bootstrap" class="tabcontent" style="display: none;">
+    <h3 class="text-center">BOOTSTRAP COURSE WORK</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum voluptatibus, atque dolor modi doloremque eligendi commodi quo nostrum enim soluta illum, delectus magni reprehenderit deserunt corporis quos eius laborum? Similique illum dolor enim dignissimos velit dolorem ducimus ab esse quaerat consectetur iure natus tempore labore mollitia sapiente sunt dolores praesentium nisi, dicta aliquid perspiciatis autem deserunt quas? Fugit labore nihil quasi quam obcaecati hic molestias at. Voluptas dignissimos ullam velit vel sapiente expedita? Aut a odio iusto doloribus esse doloremque ex veniam quas! Vero, commodi cupiditate doloribus ipsa a repellat incidunt quod aspernatur cum quas inventore pariatur molestias quos non deleniti eaque? Harum impedit porro excepturi aperiam maxime reprehenderit dolorum placeat. Praesentium veritatis facilis illo totam dignissimos atque, rem nam ipsam aliquid minima quasi cumque possimus natus unde placeat fuga blanditiis pariatur nisi sit. Autem ut quae aspernatur. Eum earum inventore, sit minus cum rem debitis ut, magni harum optio porro laudantium aspernatur consequatur esse voluptas consequuntur. Temporibus cum delectus quasi eligendi, accusamus nulla sed obcaecati suscipit doloribus minima aliquam aut numquam! Reiciendis vel vero ea accusamus nemo consectetur eius exercitationem eaque blanditiis hic, quasi mollitia nulla delectus consequatur fuga est! Ab nihil aperiam earum et inventore atque cum, iste ex obcaecati eius aspernatur voluptas molestiae repellat dolor iure facilis ipsum excepturi. Accusantium, rem alias assumenda cumque odit repellat architecto, praesentium tempore sit necessitatibus in aliquam debitis laudantium minus exercitationem ullam autem obcaecati fugit nisi vero iste doloremque natus a? Nihil odio atque ducimus doloribus nisi. Eligendi eos placeat qui dignissimos reiciendis, iusto, ipsam tempora minus, saepe soluta veniam possimus error sequi magni sit dolor magnam officia praesentium quis inventore ab eum. Dolorum, provident reprehenderit nesciunt dolore laboriosam expedita saepe. Modi eum quibusdam excepturi animi odio ullam eos itaque et ducimus deserunt illum eligendi repellat illo saepe, similique natus! Cupiditate vitae odit animi facilis! Aliquam, odio saepe? Sapiente harum aspernatur animi commodi eveniet temporibus facilis, facere reiciendis quasi voluptatem possimus veritatis ea ratione veniam eaque quis illo, officiis alias numquam. Sint est, tenetur officiis laboriosam ipsum fugit dolore molestias commodi quis tempore ducimus iure quidem! Repellat repellendus qui numquam repudiandae. Natus porro temporibus omnis autem, provident reiciendis, libero modi ea vitae alias qui! Consectetur, quidem aperiam assumenda sit facilis est aspernatur! Fugiat iure officia laborum molestiae adipisci necessitatibus sunt, quaerat ea odit quasi. Mollitia veniam harum vitae iusto cumque expedita laudantium numquam, est facere blanditiis suscipit aspernatur, dolore quibusdam temporibus. Architecto sint assumenda recusandae quam sed. Aut praesentium adipisci rem natus id libero, quia fuga eum harum maiores optio perspiciatis esse. Dolorem eos unde at molestiae esse, suscipit eaque ea harum id deleniti nisi quaerat a repudiandae velit. Obcaecati labore vitae sit, ut esse aliquam quibusdam nihil fuga nam et debitis saepe facilis, iste, odio repellendus nobis numquam alias voluptatum rem corrupti deleniti ullam reiciendis qui dolores! Sed commodi qui architecto exercitationem, harum quis repellendus voluptates, eum optio mollitia aliquam quaerat id nisi. Officiis similique, eaque id placeat cupiditate culpa, impedit, voluptatem voluptatum reiciendis animi accusantium sapiente libero? Culpa sit est ratione nobis ex laborum ea velit inventore mollitia, autem quod et voluptas eveniet accusamus animi? Voluptate laudantium esse consectetur, qui, minima officiis quaerat repellat, harum animi amet tempora ea. Necessitatibus, pariatur! Qui sunt explicabo maxime aliquid adipisci unde itaque pariatur aspernatur sit quisquam. Doloribus consequatur quisquam tempora dolor accusantium similique itaque quasi? Similique a suscipit voluptatibus officiis itaque omnis velit repellendus veniam, dicta temporibus asperiores quidem unde maiores doloremque adipisci repellat saepe iusto laboriosam excepturi, amet dolores voluptates optio quis nihil. Quibusdam itaque inventore omnis saepe sunt accusamus aut non consectetur quo, vitae, similique dolorum nemo neque provident tempore!</p>
+  </div>
+  <div id="Javascript" class="tabcontent" style="display: none;">
+    <h3 class="text-center">JAVASCRIPT INTRODUCTION</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet vitae delectus quis, aspernatur hic odio consectetur rem dicta corporis optio. Blanditiis doloremque sapiente quia sit laudantium. Voluptatum non atque accusantium pariatur voluptate nam saepe repudiandae cumque, voluptatibus distinctio doloribus ratione eum voluptatem inventore, fugit nostrum error praesentium. Rerum odio libero corrupti ratione rem optio minus totam corporis! Dolores nesciunt iusto voluptate eveniet culpa, odio, sunt rem ipsam ipsum adipisci et voluptas impedit perferendis nobis nostrum dolorum nulla maxime molestiae quas nihil, aliquam consectetur labore incidunt. Fugit porro beatae neque dolor accusamus illo suscipit dolorem in velit facere rerum saepe ducimus reiciendis mollitia excepturi commodi laborum, earum eveniet labore reprehenderit. Esse praesentium dolorum explicabo, ad quisquam tenetur omnis! Omnis id quisquam, nostrum eaque voluptatem explicabo adipisci quod aliquid sequi? Excepturi omnis blanditiis atque similique ipsa pariatur, molestiae facilis, expedita laborum aut fugit tenetur numquam! Mollitia doloribus quos quod fuga quas ipsa praesentium quidem earum nesciunt amet, placeat aperiam ad inventore, non hic, distinctio reiciendis voluptas itaque nam doloremque autem ipsum molestiae sint unde? Aliquid saepe delectus odio, veritatis exercitationem quidem eius reiciendis quasi cupiditate nemo quod iure voluptate suscipit iste quos quia tempore perspiciatis, et sit omnis nobis. Ut animi possimus nobis! Accusamus aspernatur sint dicta illum vel nobis aliquid beatae impedit cupiditate. Illo, doloribus beatae repellendus commodi atque pariatur, mollitia necessitatibus nesciunt, vero porro incidunt harum earum quia nemo. Magnam dolor totam possimus harum cupiditate nam autem perspiciatis. Tempore veniam aut laboriosam dignissimos ipsum cupiditate enim sunt aliquid, facere provident, molestias at nam reprehenderit rem assumenda, maiores repellat. Ratione expedita pariatur, provident maxime facilis autem ad consequatur id eaque sapiente quam omnis veritatis quis ullam accusamus temporibus nesciunt mollitia, incidunt earum quisquam repudiandae corrupti. Officia consectetur ab quae, aliquam placeat dignissimos repellat modi quia aliquid sint animi, incidunt, veritatis corrupti sit ea quidem. Cumque tempora amet dicta tenetur voluptatum enim facere quidem facilis. Aut qui, velit praesentium nobis possimus commodi alias non doloribus, dolorem vitae iste maxime neque suscipit dicta voluptatibus aspernatur vel nesciunt dolore cupiditate exercitationem amet? Nostrum fuga alias odio molestiae, omnis saepe. Sint adipisci qui perspiciatis unde, asperiores, eaque modi sit quibusdam facere quis quos incidunt nisi voluptates, debitis voluptatum cupiditate quaerat molestiae! Sit assumenda possimus eaque minus autem mollitia, eum commodi voluptas iste tempore. Obcaecati id minima iste deleniti quaerat reprehenderit deserunt tempore eum nisi doloremque officia aliquam harum distinctio amet recusandae, laboriosam laborum consequatur at?</p>
+  </div>
+  <div id="Php" class="tabcontent" style="display: none;">
+    <h3 class="text-center">PHP</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit rem voluptates nobis reiciendis blanditiis ducimus adipisci totam consequuntur ipsum saepe, asperiores eveniet. Nobis ad vero at cum vel similique dolorem facere laboriosam. Rem, officia sit impedit deserunt molestias maiores minus distinctio saepe cupiditate voluptas illo incidunt enim, repellat, commodi unde architecto quas dignissimos? Quaerat, voluptatum eum dolorum accusantium aperiam quos veritatis quas! Totam natus voluptate tempore tempora numquam quae eaque optio! Vel molestiae consectetur perspiciatis rerum cum libero quas harum ipsa consequatur fugiat sunt corporis autem veritatis possimus beatae voluptates soluta reprehenderit, odio vero temporibus. Illo hic minus, fugiat suscipit in nisi, laboriosam ratione, ab sapiente dignissimos maiores minima eligendi perspiciatis ducimus ipsam sequi? Eligendi deserunt autem dolores laudantium quae inventore error unde itaque et alias id dignissimos repudiandae, sunt a fugiat sed vitae nulla sapiente voluptas totam illum similique dolorum. Repellat quo libero, cumque, aperiam dolorum error praesentium voluptas soluta quas velit aspernatur? Non consequuntur commodi deserunt harum optio praesentium ipsa totam? Velit alias sed dolor, iusto nisi laborum obcaecati similique odio expedita cupiditate voluptas eligendi ut, sit fugit quas error corporis ex voluptatibus dolores! Culpa, ipsum iste? Totam, voluptatum. Voluptatem possimus ipsum enim libero nobis repudiandae, cum unde, distinctio, similique omnis aliquam? Sit libero hic atque sunt voluptas laboriosam ipsa cumque quasi obcaecati dolor inventore ducimus velit, minima magnam dignissimos et officia consequatur culpa a. Veniam nostrum architecto iusto tenetur amet, enim esse pariatur laboriosam eveniet voluptatibus ipsam quisquam dolorem accusamus ipsum, qui, minima reprehenderit. Repudiandae, voluptatem amet. Ut aliquam modi unde ipsum, perspiciatis assumenda iste est porro provident eius non quaerat ipsam, quasi expedita reprehenderit eos aperiam cupiditate! Dolorem, necessitatibus? Enim accusamus magnam dolor laboriosam optio, fugiat recusandae explicabo molestiae fuga obcaecati inventore quaerat cupiditate commodi sapiente, fugit doloribus architecto in expedita! Excepturi mollitia nihil consequatur repellendus.</p>
+  </div>
+  <div id="Python" class="tabcontent" style="display: none;">
+    <h3 class="text-center">PYTHON LECTURES</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, soluta. Similique unde numquam saepe exercitationem magni ipsum dignissimos, nemo fuga rerum quam quos tenetur cumque soluta! Voluptatem molestiae ipsam reprehenderit laboriosam quaerat deserunt vero id ducimus corporis doloribus! Et porro, perferendis nam optio exercitationem fugiat aliquam, voluptate, odit culpa expedita eum corrupti autem facilis! Corporis quibusdam consectetur accusantium consequatur recusandae non, facere repellendus, odio sapiente nihil natus ullam? Nostrum vel, corporis officia voluptatibus expedita odio modi ea? Iusto alias quae doloribus quaerat enim, ut sequi, adipisci, accusamus praesentium soluta repudiandae. Est error sed optio excepturi sapiente maxime magni asperiores? Voluptates delectus sit sapiente omnis iusto adipisci doloribus! Quis numquam alias officia incidunt dicta perferendis consequatur sapiente necessitatibus similique dolorem iure architecto, neque beatae magnam, quas amet nam? Ipsum dignissimos fuga aliquam aspernatur officiis, aliquid itaque tempore, dolore, placeat nesciunt cum fugiat quas soluta inventore eaque ex sint suscipit. Dolores praesentium animi aperiam nam ab reprehenderit laboriosam incidunt corporis architecto nulla quasi rem, consectetur aliquid impedit, eum non voluptate exercitationem iure voluptas possimus amet. Consequatur vero illo iure unde, aut minus accusantium facere molestias veniam voluptas magni est temporibus expedita voluptate eaque laudantium eos, esse labore exercitationem, dicta cumque eligendi? Dolorum, ut. Possimus vel reiciendis ea fuga cum. Aspernatur sint odio quos in. Molestiae error consequatur atque nisi qui libero modi, cumque illo nulla. Vel in quo sed iure aliquid officiis blanditiis, non neque ab voluptate tenetur esse autem rerum labore similique ipsum consequatur, atque nobis est perferendis voluptatibus eaque excepturi!</p>
+  </div>
+  <div id="Test" class="tabcontent" style="display: none;">
+    <h3 class="text-center">TEST</h3>
+    <ul>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste qui facere quod cum praesentium ea repudiandae nulla voluptatum! Perspiciatis consectetur, ut autem ea rem amet earum fugiat vel iste nobis.</li>
+    </ul>
+      
+  </div>
+  <!-- side nav end -->
+
+
+
+</body>
+<script src="./dist/js/bootstrap.min.js"></script>
+</html>

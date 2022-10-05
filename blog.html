@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/special.css">
+    <title>blog.africare</title>
+      <!-- scroll head -->
+      <script>
+        function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }}
+    </script>
+    <!-- scroll  head-->
+</head>
+<body>
+        <!-- nav start -->
+<nav class="navbar navbar-expand-sm  navbar-dark" style="background-color: var(--life); position: fixed; z-index:10; width: 100%;">
+    <div class="container-fluid">
+     <a href="index.html" style="text-decoration: none;">
+      <div class="origin fry sense">
+        <img style="width: 3rem; margin-right: 7px;" src="./img/logo/logo_three-removebg-preview.png" alt="">
+        <h2 style="color: whitesmoke;">AFRICARE</h2>
+      </div>
+     </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar" style="margin-left:23%;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index2.html">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ABOUT US</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html">Who We Are</a></li>
+              <li><a class="dropdown-item" href="about.html">Mission Statement</a></li>
+              <li><a class="dropdown-item" href="about.html">Featured Stories</a></li>
+              <li><a class="dropdown-item" href="about.html">Upcoming Events</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="pioneers.html">PIONEERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contributor.html">CONTRIBUTORS</a>
+            </li>  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">E-Outreach</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="e-outreach.html">Web Development</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">AI Programming class</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Pastry Making Courses</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Crypto Trading Lessons</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Mobile App Development</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Ecommerce Website</a></li>
+                <li><a class="dropdown-item" href="e-outreach.html">Forex Trading Classes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="blog.html" style="color: black;">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">REGISTER</a>
+            </li>  
+            <li class="nav-item2 tpmar">
+              <button class="btn"><a class="nav-link" href="donate.html" style="background-color: white; color: black; ">DONATE</a></button>
+            </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav end -->
+  <!-- scroll action -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+  <script>mybutton = document.getElementById("myBtn");</script>
+  <script>window.onscroll = function() {scrollFunction()};
+  </script>
+    <!-- scroll action -->
+    <!-- alert item start -->
+<div class="alert alert-primary fixed-bottom alert-dissmissible fade show w-50 container-fluid">
+  <div class="red d-flex">
+   <p>Subscribe To Our Newsletter To Get The Latest Update</p>
+   <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+  </div>
+   <div class="news1 mb-3">
+       <div class="news-inner w-100 border d-flex align-items-center">
+           <i class="fa fa-envelope"></i>
+           <input type="email" class="form-controls w-100 border-none outline-none" placeholder="Enter Email">
+       </div>
+       <button class="btn btn-info">Subscribe</button>
+   </div>
+</div>
+  <!-- alert item end -->
+  <!-- contact flyer start -->
+  <div class="flyer">
+    <ul>
+      <li>
+        <button type="button" class="bag" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="fa-solid fa-square-minus"></i>
+        </button>
+      </li>
+      <li><a href=""><i class="fa-brands fa-facebook"></i></a></i></li>
+      <li><a href=""><i class="fa-brands fa-twitter"></i></a></i></li>
+      <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></i></li>
+    </ul>
+   </div>
+<!-- contact flyer end -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false" style="width:80rem ; overflow-x: visible; margin-right: 30px;">
+  <div class="modal-dialog" style="width:55rem ;">
+    <div class="modal-content" style="width:55rem ;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>AFRICARE</h4>
+        <h6>Here To Help</h6>
+        <div class="concise ">
+          <div class="talk">
+            <h1><i class="fa-solid fa-phone"></i></h1>
+            <h4>Talk To Our Services Personnel</h4>
+            <p><b>Phone No</b></p>
+            <p>+2349039905114</p>
+            <p><b>Emergency Hotline</b></p>
+            <p>+2349066451518</p>
+            <p>We are here to help and answer any question</p>
+            <p>you might have. We look forward to hearing from you</p>
+          </div>
+          <div class="chat">
+            <h1><i class="fa-solid fa-comment"></i></h1>
+            <h3>How Can We Help?</h3>
+            <p>Send us a message</p>
+            <form action="">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Last Name">
+              <input type="email" placeholder="Email Address">
+              <textarea name="message" cols="50" rows="5" placeholder="message"></textarea>
+            </form>
+            <div class="mdlink">
+             <h4>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-Instagram-square"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+             </h4>
+            </div>
+        </div>
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal end -->
+<!-- hero start -->
+<div class="hero-vd pt-5">
+  <div class="invid">
+    <video src="./vid/pexels-suraphat-nueaon-6740283.mp4"autoplay="autoplay" loop="true" muted defaultmuted></video>
+    <div class="over fry ">
+      <h1>Africare Extends Its Reach To The Displaced Children Of South Asia</h1>
+      <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+    </div>
+  </div>
+</div>
+<!-- hero end -->
+
+<!-- header start -->
+<div class="all-intro container-fluid">
+  <div class="intros fry container-fluid row">
+    <div class="intro1 col-lg">
+      <a href="">
+        <h6>Africare in West Africa</h6>
+        <p><b>Women Emancipation Taken up by Africare in Cameroon, As Marginalization Boils Over</b></p>
+      </a>
+    </div>
+    <div class="intro2 col-lg">
+      <a href="">
+        <h6>Local News</h6>
+        <p><b>Election Sensitization in South-East Nigeria; Enfranchising Women</b></p>
+      </a>
+    </div>
+    <div class="intro3 col-lg">
+      <a href="">
+        <h6>The International Stage and Africare</h6>
+        <p><b>Africare Joins Global Conference in Beijing for Non-profit Organizations</b></p>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- header end -->
+<!-- bodys start -->
+<div class="all-parts container-fluid">
+<div class="parts row">
+  <div class="part1 col-2">
+    <h4>The International Column</h4>
+    <div class="inside1">
+      <a href="">
+        <h5>England Opens Its Borders To Ukrainian Refugees</h5>
+        <hr>
+      </a>
+    </div>
+    <div class="inside1">
+      <a href="">
+        <h5>Flood Displaces Thousands In Haiti</h5>
+        <hr>
+      </a>
+    </div>
+    <div class="inside1">
+      <a href="">
+        <h5>Earthquake Hits Another Peruvian City Again</h5>
+        <hr>
+      </a>
+    </div>
+    <div class="inside1">
+      <a href="">
+        <h5>Drought Continues to Plague Yemen And Its Bordering Nations</h5>
+        <hr>
+      </a>
+    </div>
+    <div class="inside1">
+      <a href="">
+        <h5>The Vatican Rallies Around For Operation Feed Children Day</h5>
+        <hr>
+      </a>
+    </div>
+    <div class="inside1">
+      <a href="">
+        <h5>Aficare Leads Mission To Help Displaced Children of South-Asia</h5>
+        <hr>
+      </a>
+    </div>
+  </div>
+  <div class="part2 col-7">
+    <h3>Africare Footprints in Africa</h3>
+    <div class="inside2">
+      <img src="./img/blog/libya u.jpg" alt="">
+      <h2>Libya Partakes In An Africare Mission, And Begins A New Movement</h2>
+      <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="inside2">
+      <img src="./img/blog/congo u.jpg" alt="">
+      <h2>Africare Offers Educational Aid To Children In War Torn Congo</h2>
+      <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="inside2">
+      <img src="./img/blog/ultra u.jpg" alt="">
+      <h2>The capital Of Sokoto, Nigeria Begins Her First Ultra Modern Computer Facility</h2>
+      <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="inside2">
+      <img src="./img/blog/state u - Copy.jpg" alt="">
+      <h2>Africare Commissions Her First State Of The Art Tech Research Center In Imo State</h2>
+      <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="inside2">
+      <img src="./img/blog/renew u - Copy.jpg" alt="">
+      <h2>Africare Ventures Into Renewable Energy For Public Schools In South-East Nigeria</h2>
+      <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="inside2">
+      <img src="./img/blog/ethiopia u - Copy.jpg" alt="">
+      <h2>Ethiopia Receives International Aid From Africare Partners For Feeding Of Children</h2>
+      <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+    </div>
+  </div>
+  <div class="part3 col-3">
+    <h4>Trending Topics</h4>
+    <div class="inside3">
+      <div class="dry fry">
+        <img src="./img/blog/ukraine2.jpg" alt="">
+        <a href=""><h5>Ukraine adopts A nation Wide E-Learning As The War Persist</h5></a>
+      </div>
+      <hr>
+    </div>
+    <div class="inside3">
+      <div class="dry fry">
+        <img src="./img/blog/niger.jpg" alt="">
+       <a href=""><h5>Nigerian FG Grants Goods Worth Millions For Relieve In War Torn Niger Republic</h5></a>
+      </div>
+      <hr>
+    </div>
+    <div class="inside3">
+      <div class="dry fry">
+        <img src="./img/blog/obike.jpg" alt="">
+        <a href=""><h5>Africare Founder Peter Obi Visits Obike Secondary School</h5></a>
+      </div>
+      <hr>
+    </div>
+    <div class="inside3">
+      <div class="dry fry">
+        <img src="./img/blog/pope.jpg" alt="">
+        <a href=""><h5>The Pope Sends Emissaries To Aid In The Rehabilitation Of Libya</h5></a>
+      </div>
+      <hr>
+    </div>
+    <div class="inside3">
+      <div class="dry fry">
+        <img src="./img/blog/unicef.jpg" alt="">
+        <a href=""><h5>Unicef Arrives Russia For Crucial War End Discussion Because Of Children </h5></a>
+      </div>
+      <hr>
+    </div>
+    <div class="inside3">
+      <div class="dry fry">
+        <img src="./img/blog/mercy corp.jpg" alt="">
+        <a href=""><h5>Mercy Corps Collaborates With Africare To Provide Support For Flood Victims Of Togo</h5></a>
+      </div>
+      <hr>
+    </div>
+    <div class="inside3">
+      <div class="dry fry">
+        <img src="./img/blog/chuemka.jpg" alt="">
+        <a href=""><h5>Chukwuemeka Ewuruigwe Of Nigeria Wins Africare Maiden scholarship Series</h5></a>
+      </div>
+      <hr>
+    </div>
+  </div>
+</div>
+</div>
+<!-- bodys end -->
+<!-- daily start -->
+<div class="all-daily">
+  <h1>Africare Daily Column</h1>
+  <div class="dailies cont1">
+    <div class="daily1">
+      <h3>The Value Of Community Service</h3>
+      <p>Giving back to society is in fact vague and misty in nature. There’s so much that we procure from society. There are so many strata of people who make up the whole population of a nation. But they are different from each other. Some are affluent and some are mere stragglers of survival. In many countries, there are masses who don’t even have excess to basic day-to-day requirements. There are also people who have so much in excess, that the amounts if distributed, would solve many problems plaguing most areas around the world. “Without community service, we would not have a strong quality of life. Give to him who asks of you, and do not turn away.</p>
+     
+    </div>
+    <div class="daily2">
+      <img src="./img/blog/giving.jpg" alt="">
+    </div>
+    <div class="daily3">
+      <p>But, there comes minimum or negligible effort from us as a whole to emancipate at least the smallest fraction of the problem. There are scriptures of all the faiths that actually teach us to give and share. But perhaps in this fast, mechanical world, the words ‘give’ and ‘share’ have been drooped to nothingness.
+      We shall browse through some of wise words from famous stall-wards of society who have tried to inculcate the goodness of benevolence in us. These words, which we commonly call quotes, are motivational to take up an action which has been neglected since long, really long. “But whoever has the world’s goods, and sees his brother in need. Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+  </div>
+  <div class="d-cont cont1" style="margin-top: -10px;">
+    <p> It’s important to the person who serves as well as the recipient.
+      It’s the way in which we ourselves grow and develop.” “Never doubt that a small group of thoughtful committed citizens can change the world: indeed, it’s the only thing that ever has.” “Is it not to divide your bread with the hungry And bring the homeless poor into the house; When you see the naked, to cover him; And not to hide yourself from your own flesh?”. “Wealth is not new. Neither is charity. But the idea of using private wealth imaginatively, constructively, and systematically to attack the fundamental problems of mankind is new.” “I will continue to distribute blankets, sleeping bags, warm clothing and food on a regular basis, in the hope that my modest efforts will give some comfort to those people we are able to help.” “There is a natural law, a Divine law, that obliges you and me to relieve the suffering, the distressed and the destitute.</p>
+      <p><b>~~ Patrick Ogomaka</b></p>
+  </div>
+</div>
+<!-- daily end -->
+<!-- en route start -->
+<div class="all-route cont2">
+  <div class="route fry">
+    <div class="route1">
+      <img src="./img/donate/don 13.jpg" alt="">
+    </div>
+    <div class="route2">
+      <h4>Help Our Cause</h4>
+      <h5>Give The Less Privileged A Chance Today </h5>
+      <p>We are not put on this earth for ourselves, but are placed here for each other. If you are there always for others, then in time of need, someone will be there for you. So long as we love we serve; so long as we are loved by others, I would almost say that we are indispensable; and no man is useless while he has a friend.</p>
+      <a href="donate.html" target="_blank">Donate Now <i class="fa fa-arrow-right"></i></a>
+    </div>
+  </div>
+</div>
+<!-- en route end -->
+<!-- footer start -->
+<div class="plea my-1">
+  <footer
+          class="text-center text-lg-start text-white" style="background-color: black; font-size: small;">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">ABOUT AFRICARE</h5>
+              <p class="mb-5">
+              Africare is a global Non-Profit organization and Trust Fund, founded in 2020 after the initial covid-19 outbreak by its well-meaning, philanthropic and humanitarian pioneers, for the cause of tackling ignorance and re-growing Africa
+            </p>
+            <a href="index.html" style="text-decoration: none">
+              <div class="origin fry sense">
+                <img style="width: 3rem; margin-right: 7px;" src="./img/logo/logo_three-removebg-preview.png" alt="">
+                <h2 style="color: whitesmoke;">AFRICARE</h2>
+              </div>
+             </a>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">NAVIGATION</h5>
+            <ul class="please list-unstyled mb-0">
+              <li>
+                <a href="index2.html" class="text-white">Home</a>
+              </li>
+              <li>
+                <a href="pioneers.html" class="text-white">Pioneers</a>
+              </li>
+              <li>
+                <a href="contributor.html" class="text-white">Contributors</a>
+              </li>
+              <li>
+                <a href="blog.html" class="text-white">Blog</a>
+              </li>
+              <li>
+                <a href="donate.html" class="text-white">Donate</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">ABOUT US</h5>
+
+            <ul class="please list-unstyled mb-0">
+              <li>
+                <a href="about.html" class="text-white">Who we are</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white">Mission statement</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white">Featured stories</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white">Upcoming Events</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">E-OUTREACH</h5>
+
+            <ul class="please list-unstyled mb-0">
+              <li>
+                <a href="e-outreach.html" class="text-white">Web Development</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">AI Programming</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Pastry making classes</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Crypto trading lessons</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Mobile app development</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">E-commerce websites</a>
+              </li>
+              <li>
+                <a href="e-outreach.html" class="text-white">Forex Trading Classes</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">CONTACT US</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li class="d-flex align-items-center">
+                  <i class="fa fa-phone"></i>  <p class="mt-1 ms-2">PHONE NO</p>
+              </li>
+              <li>
+                  <p>+234 903 990 5114</p>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="fa fa-home"></i> <p class="mt-1 ms-2">ADDRESS</p>
+              </li>
+              <li>
+                <p>Ikenegbu Owerri, Imo State Nigeria</p>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="fa-solid fa-at"></i> <p class="mt-1 ms-2">EMAIL ADDRESS</p>
+              </li>
+              <li>
+                <p>Africare@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <hr class="mb-4" />
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3">Join Us</span>
+          <a href="register.html"><button type="button" class="btn btn-outline-light btn-rounded">
+              Sign up!
+            </button></a>
+        </p>
+      </section>
+      <hr class="mb-4" />
+      <section class="mb-4 text-center">
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-facebook-f"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-twitter"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-google"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-instagram"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-linkedin-in"></i
+          ></a>
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-github"></i
+          ></a>
+      </section>
+    </div>
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-white" href="">Africare.com</a>
+    </div>
+  </footer>
+</div>
+<!-- footer end -->
+</body>
+<script src="./dist/js/bootstrap.min.js"></script>
+</html>

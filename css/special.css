@@ -1,0 +1,237 @@
+*{margin: 0%;padding: 0;text-decoration: none;}
+/* global classes */
+.fry{display: flex;}
+.just{justify-content: center;}
+.just1{justify-content: space-between;}
+.sense{align-items: center;}
+.cont{margin: 0 14rem;}
+.cont1{margin: 0 4rem;}
+.cont2{margin: 0 2rem;}
+.bloc{display: block;}
+.bckg{background-color: var(--life);}
+.tpmar{margin-top: -8px;}
+:root{
+    --class: rgb(8, 1, 17);
+    --heaven: white;
+    --dark:black;
+    --main:rgb(245, 79, 19);
+    --life:rgb(88, 168, 235);
+    --warn: rgb(250, 250, 17);
+}
+/* start of nav */
+.nav-link{
+    color: whitesmoke;
+    margin: 0 4px;
+    font-weight: 500;
+    border-radius: 7px;
+}
+.nav-link:hover{
+    transform: translateY(10%);
+    border-bottom: 1px solid beige;
+    transition: 0.30s ease-in;
+    box-shadow: none;
+}
+/* end of nav */
+/* scroll action */
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    border-radius: 50%;
+    height: 3vw;
+    width: 3vw;
+    outline: none; 
+    background-color: black; 
+    color: white; 
+    cursor: pointer; 
+    padding: 3px; 
+    font-size: 25px; 
+  }
+  
+  #myBtn:hover {
+    background-color: cornflowerblue; 
+  }
+/* scroll action */
+
+/* contact flyer start */
+.flyer li{
+    list-style-type: none;
+    background-color: var(--life);
+    padding: 7px;
+}
+.flyer li a{
+    text-decoration: none;
+    color: black;
+}
+.flyer{
+    position: fixed;
+    top: 30%;
+    right: 0%;
+    z-index: 99;
+}
+.bag{
+    padding: 0;
+    border: none;
+    background-color: var(--life);
+}
+#exampleModal{
+    transform: translateX(-12%);
+    width: 81rem;
+}
+.modal{
+    justify-content: space-between;
+    gap: 3%;
+}
+.modal::-webkit-scrollbar{
+    display: none;
+}
+.concise{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    width: 55rem;
+}
+.chat{
+    border-radius: 12px;
+    border: none;
+    box-shadow: 2px 4px 6px black;
+    padding: 5px;
+    width: 93%;
+}
+.talk{
+    border-radius: 12px;
+    border: none;
+    box-shadow: 2px 4px 6px black;
+    padding: 5px;
+    width: 93%;
+}
+.modal-body h4,h6{
+    text-align: center;
+    font-style: oblique;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.talk, .chat{
+    margin-top: 1rem;
+}
+.chat h1{
+    text-align: center;
+    margin-bottom: 1rem;
+   
+}
+.talk h1{
+    text-align: center;
+    margin-bottom: 1rem;
+   
+}
+.talk h4{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+.fa-phone{
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px black;
+    padding: 7px;
+}
+.fa-comment{
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px black;
+    padding: 7px;
+}
+.chat h3{
+    text-align: center;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 25px;
+}
+.chat p{
+    text-align: center;
+    font-weight: 500;
+}
+.chat form input:nth-child(3){
+    width: 24rem;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+.chat form input:nth-child(2){
+    width: 24rem;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+.chat form input:nth-child(1){
+    width: 24rem;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+.chat form textarea::placeholder{
+    padding: 4px;
+    margin: 4px;
+}
+/* contact flyer end */
+/* alert start */
+.news-inner input{
+    border: none;
+    outline: none;
+    align-items: center;
+    margin-left: 3px;
+    padding: 10px;
+}
+.news1{
+    display: flex;
+}
+.red{
+    justify-content: space-between;
+    font-weight: 600;
+}
+.fa-envelope{
+    background-color: white;
+    padding: 14px;
+    margin-right: -3px;
+}
+/* alert end */
+  /* footer start */
+  @media(max-width:600px){
+    .plea{
+        transform: translateY(35%);
+    }
+    .alert{
+        display: none;
+    }
+    .modal{
+        display: none;
+    }
+    .flyer{
+        display: none;
+    }
+    .callout{
+        display: none;
+    }
+  }
+  .please li a{
+    text-decoration: none;
+  }
+  .please li a:hover{
+    text-decoration: underline;
+  }
+  .fa-phone{
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px whitesmoke;
+    padding: 7px;
+}
+.fa-at{
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px whitesmoke;
+    padding: 7px;
+}
+.fa-home{
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px whitesmoke;
+    padding: 7px;
+}
+  /* footer end */

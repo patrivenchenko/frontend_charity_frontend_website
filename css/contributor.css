@@ -1,0 +1,161 @@
+/* flip start */
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #f1f1f1;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    transition: 1s ease-in-out;
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  .flip-card-front img{
+    width: 100%;
+    height: 100%;
+  }
+  /* Style the back side */
+  .flip-card-back {
+    background-image: 
+   linear-gradient(rgba(18, 72, 105, 0.5), rgba(11, 66, 100, 0.3)), url(../img/volunteer4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    transform: rotateY(180deg);
+    transition: 2s ease-in-out;
+  }
+  .flip-card-back h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-style: oblique;
+    padding-top: 10rem;
+    color: var(--life);
+  }
+  .flip-card-back p{
+    font-size: 25px;
+    align-items: center;
+    font-weight: 500;
+    color: var(--heaven);
+    line-height: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+  }
+  .suppo{
+    gap: 3%;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .suppo a{
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-style: oblique;
+    background-color: #000;
+    padding: 13px;
+    border-radius: 14px;
+    margin-top: 4rem;
+  }
+  .suppo a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.50s ease;
+  }
+  .suppo button{
+    background-color: var(--dark);
+    color: white;
+    border: none;
+    padding: 13px;
+    border-radius: 13px;
+    margin-top: 3rem;
+  }
+  .suppo button:hover{
+    color: black;
+    background-color: white;
+  }
+/* infos start */
+.infocard {
+    box-shadow: 2px 5px 8px 4px rgba(0, 0, 0, 0.2);
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  .infocard img{
+    width: 20vw;
+    height: 30vw;
+    object-fit: cover;
+  }
+  .infocard button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .infocard a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .infocard button:hover, a:hover {
+    opacity: 0.7;
+  }
+/* infos end */
+@media(max-width:600px){
+  .infocard{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .infocard:nth-child(1){
+    margin-top: 1rem;
+  }
+  .infocard:nth-child(9){
+    display: none;
+  }
+  .infocard:nth-child(11){
+    display: none;
+  }
+  .infocard:nth-child(12){
+    display: none;
+  }
+}

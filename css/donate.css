@@ -1,0 +1,175 @@
+/* styling of the main work */
+.all-don{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)) ,url(../img/donate/don\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.don-hero h1{
+    color: whitesmoke;
+    margin-left: 10px;
+    padding-top: 4rem;
+    font-weight: 700;
+    font-size: 120px;
+}
+.don-hero h3{
+    color: whitesmoke;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 9px;
+    width: 69%;
+    padding: 4px;
+}
+.don-hero p{
+    color: whitesmoke;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1rem;
+}
+.btn:hover{
+    transform: translateY(10%);
+    transition: 0.30s ease-in;
+    box-shadow: 2px 4px 7px inset;
+}
+.don-hero-nxt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: var(--heaven);
+    transform: translateY(60%);
+    z-index: 1;
+    margin-bottom: 2rem;
+}
+.hero-nxt i{
+    color: var(--class);
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 7px;
+}
+strong a{
+    color: whitesmoke;
+}
+.tablink {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  .tablink:hover {
+    background-color: #777;
+  }
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 90px 20px;
+    height: 42rem;
+  }
+  .choice{
+    margin-top: -45px;
+    background-color: white;
+    width: 17rem; 
+    color:black"
+  }
+  .choice p{
+    color: black;
+  }
+  #Give_Monthly {background-color: black;}
+  #Donate_Once{background-color: black;}
+  #Quarterly_Donation {background-color: black;}
+  #Annual_Package {background-color: black;}
+
+  .target{
+    /* height: 100%; */
+    margin: 8rem 5rem 0 5rem;
+    font-family: Arial;
+  }
+.despic img{
+    height: 13rem;
+    width: 13rem;
+}
+.tabcontent h3{
+    text-align: center;
+    font-style: oblique;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.descrip{
+    
+    padding: 20px;
+}
+.tabcontent h4{
+    border-bottom: 1px solid var(--life);
+    color: white;
+    font-weight: 400;
+    font-style: oblique;
+    margin-left: 15px;
+    padding-bottom: 20px ;
+}
+.amountbox button{
+    color: black;
+    background-color: var(--life);
+    padding: 5px 12px;
+    font-weight: 700;
+    border-radius: 13px;
+    margin-left: 3rem;
+    width: 6rem;
+    margin-bottom: 3rem;
+}
+.amountbox button:hover{
+    background-color: var(--life);
+}
+.tabcontent a{
+    text-decoration: none;
+    padding: 13px;
+    color: black;
+    background-color: var(--life);
+    border-radius: 16px;
+    margin-left: 12rem;
+}
+
+.tabcontent a:hover{
+    background-color: white;
+    color: var(--life);
+}
+.nomina input{
+    width: 17.2rem;
+}
+.nomina{
+    gap: 5%;
+}
+.nomina2 input{
+    width: 17.2rem;
+}
+.nomina2{
+    gap: 5%;
+}
+sup{
+    color: red;
+}
+.epic{
+    border: 2px solid black;
+    padding: 30px;
+    width: 40rem;
+}
+center{
+    margin-bottom: 2rem;
+}
+.nomina1{
+    border-bottom: 1px solid black;
+    padding-bottom: 35px;
+}
+.zen img{
+    width: 3rem;
+    height: 2rem;
+}
+.zen{
+    gap: 5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
